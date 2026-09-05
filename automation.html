@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Automation and AI — RMB Board plan, 1 September 2026</title>
+<link rel="stylesheet" href="shared.css">
+<link rel="stylesheet" href="plan.css">
+
+</head>
+<body>
+<aside class="rmb-sidebar" id="rmb-sidebar">
+  <div class="sb-logo-block">
+    <div class="sb-logo">RMB<br>BoD</div>
+    <div>
+      <div class="sb-brand-main">RMB Board Plan</div>
+      <div class="sb-brand-sub">1 September 2026</div>
+    </div>
+  </div>
+  <nav class="sb-nav">
+    <span class="sb-section-label">The plan</span>
+    <a href="index.html">📄 Overview</a>
+    <a href="action-plan.html">🗂 Action plan</a>
+    <a href="schedule.html">📅 Schedule</a>
+    <a href="governance.html">🏛 Governance</a>
+    <a href="automation.html" class="active">🤖 Automation & AI</a>
+    <a href="glossary.html">📖 Glossary</a>
+    <div class="sb-divider"></div>
+    <span class="sb-section-label">Demonstrations</span>
+    <button class="sb-group-trigger" id="sb-demo-trigger" onclick="sbToggle(this)">
+      <span>🔬 Demo tools</span><span class="sb-arrow">▾</span>
+    </button>
+    <div class="sb-group-items" id="sb-demo-items">
+      <a href="https://rmb-mineral-pricing-tool.streamlit.app/" class="sb-sub" target="_blank" rel="noopener">📤 Reporting platform</a>
+      <a href="https://rmb-mineral-pricing-tool.streamlit.app/" class="sb-sub" target="_blank" rel="noopener">📉 Risk-pricing model</a>
+      <a href="https://rmb-mineral-pricing-tool.streamlit.app/" class="sb-sub" target="_blank" rel="noopener">💠 3T pricing tool</a>
+    </div>
+    <div class="sb-divider"></div>
+    <span class="sb-section-label">Documents</span>
+    <button class="sb-group-trigger" id="sb-doc-trigger" onclick="sbToggle(this)">
+      <span>⬇ Download</span><span class="sb-arrow">▾</span>
+    </button>
+    <div class="sb-group-items" id="sb-doc-items">
+      <a href="docs/RMB__BoD-2026-09-01_Action-plan_detailed.docx" class="sb-sub">📘 Detailed (Word)</a>
+      <a href="docs/RMB__BoD-2026-09-01_Action-plan_detailed.pdf" class="sb-sub">📕 Detailed (PDF)</a>
+      <a href="docs/RMB__BoD-2026-09-01_Action-plan_condensed.docx" class="sb-sub">📗 Condensed (Word)</a>
+      <a href="docs/RMB__BoD-2026-09-01_Action-plan_condensed.pdf" class="sb-sub">📙 Condensed (PDF)</a>
+    </div>
+  </nav>
+</aside>
+
+<div class="sb-topbar">
+  <div class="sb-topbar-logo">RMB<br>BoD</div>
+  <div class="sb-topbar-title">RMB Board Plan</div>
+  <button class="sb-hamburger" id="sb-hbg" onclick="sbMobileToggle()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</div>
+<div class="sb-overlay" id="sb-overlay" onclick="sbMobileClose()"></div>
+<div class="page-wrap">
+
+<div class="hero">
+  <div class="hero-bg-mesh"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="eyebrow fade-up au-1">Automation</div>
+    <h1 class="hero-title fade-up au-2" style="white-space:normal">Human attention kept for <span class="accent">judgement</span></h1>
+    <p class="hero-lead fade-up au-3">RMB will not obtain visibility over the sector by adding staff to read documents. Uniform reporting generates a volume of contracts, invoices, assay certificates and periodic reports that is only manageable if the routine work is automated. The first use case below is already scheduled for October 2026.</p>
+    <p class="hero-meta fade-up au-4">Delivered progressively under activity A6.5 · roadmap due 31 January 2027 (D+152)</p>
+    
+  </div>
+</div>
+
+<div class="section">
+  <div class="eyebrow">Use cases</div>
+  <h2 class="section-title">Ranked by value against feasibility</h2>
+  <div class="table-scroll"><table class="data-table">
+  <thead><tr><th style="width:230px">Use case</th><th>What it automates</th><th>What it makes possible</th></tr></thead>
+  <tbody><tr><td><strong>Portable prompt and skill library</strong></td><td>Tool-agnostic prompt and skill files a company downloads and runs with any AI assistant to turn a PDF, a scan or a text record into a clean Excel or CSV file.</td><td style="color:var(--blue)">Companies whose records are not digital today can still report. This is what makes uniform reporting realistic rather than aspirational, and it costs nothing to distribute.</td></tr><tr><td><strong>Document intelligence</strong></td><td>Automatic extraction of structured data from contracts, invoices, assay certificates and company reports into a single machine-readable schema, whatever format they arrive in.</td><td style="color:var(--blue)">Turns a contract review that today takes days of manual reading into minutes, and makes the whole contract population searchable and comparable rather than filed away.</td></tr><tr><td><strong>Rule-based validation at upload</strong></td><td>Deterministic checks the moment a report is submitted: mandatory fields, units, internal arithmetic, tonnage balances, grade ranges, deduction lines itemised rather than bundled.</td><td style="color:var(--blue)">Errors are corrected by the company before the data enters RMB's systems. Officers stop spending their time on data cleaning.</td></tr><tr><td><strong>Anomaly detection</strong></td><td>Statistical detection of outliers: prices outside the reference band, grades inconsistent with the deposit, treatment charges diverging from the published rate, duplicated invoices, activity patterns typical of a dormant holder.</td><td style="color:var(--blue)">Inspection effort is directed by evidence rather than by rotation. The same engine feeds the licence clean-up and the risk indicators.</td></tr><tr><td><strong>Cross-source reconciliation</strong></td><td>Automatic matching of declared exports against assay reports, invoices, tax records and traceability data, with every discrepancy raised as a worklist item.</td><td style="color:var(--blue)">Closes the gap between what is declared in one channel and what is declared in another, which is the loophole opacity depends on.</td></tr><tr><td><strong>Risk and price modelling</strong></td><td>Quantified models that price the mapped risks and recompute realised value against the pricing model, with scenario and sensitivity analysis on the main drivers.</td><td style="color:var(--blue)">Gives banks and insurers a number rather than an argument, and gives investors a computed answer on what a change in freight, treatment charge or reference price does to their economics.</td></tr><tr><td><strong>Automated drafting and feedback</strong></td><td>First drafts generated: quarterly communiqués, dashboards, compliance-reminder letters, the standard notices in the licence warning cycle, and routine sections of the Board pack.</td><td style="color:var(--blue)">Reporting effort moves from producing documents to reviewing and deciding on them.</td></tr><tr><td><strong>Compliance assistant for operators</strong></td><td>A guided assistant answering an operator's questions about what to report, when, and in what format.</td><td style="color:var(--blue)">Reduces error at source and lowers the cost of compliance, which is what makes uniform enforcement fair as well as feasible.</td></tr></tbody>
+  </table></div>
+</div>
+
+<div class="section section-alt">
+  <div class="eyebrow">Safeguards</div>
+  <h2 class="section-title">Conditions attached to all of it</h2>
+  <ul class="guard-list"><li>Artificial intelligence supports decisions; it does not take them. Any output affecting a licence, a tax position or a sanction is reviewed and signed by a competent officer.</li><li>Every automated finding must be traceable to the source document that produced it, and reproducible.</li><li>The demonstration platform retains no company data once a session ends, and the data-handling note is issued before the first upload, not after.</li><li>Start with deterministic rules, which are cheap, explainable and defensible before a court or an operator, and add statistical or generative components only where rules genuinely cannot do the job.</li><li>Build demonstrations before asking for budget. A tool that has been seen working is a different decision from a tool that has been described.</li><li>Measure each release on time saved, errors caught and decisions accelerated. An automation that cannot show its effect is retired.</li></ul>
+  <div class="callout" style="margin-top:32px">
+    <div class="callout-title">Effect on the decision loop</div>
+    <p>Automation is what turns the seven-step workflow into a service level. Capture and validation become instantaneous. Analysis starts from a clean, reconciled dataset instead of from data cleaning. Anomalies present themselves rather than waiting to be found. The measurable target is that the time between an event in the sector and a decision informed by it falls from months to days.</p>
+  </div>
+</div>
+
+<footer class="rmb-footer">
+  <div>
+    <div class="footer-brand">RMB <span>Board plan</span></div>
+    <div class="footer-meta">Board of Directors of 1 September 2026 · v3, 5 September 2026 · draft for review</div>
+  </div>
+  <div class="footer-meta">Jean Jacques Mutabaruka · Mineral market intelligence expert</div>
+</footer>
+</div>
+<div id="tip" role="tooltip"></div>
+<script src="nav.js"></script>
+<script src="glossary-tip.js"></script>
+
+</body>
+</html>

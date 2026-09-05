@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Governance — RMB Board plan, 1 September 2026</title>
+<link rel="stylesheet" href="shared.css">
+<link rel="stylesheet" href="plan.css">
+
+</head>
+<body>
+<aside class="rmb-sidebar" id="rmb-sidebar">
+  <div class="sb-logo-block">
+    <div class="sb-logo">RMB<br>BoD</div>
+    <div>
+      <div class="sb-brand-main">RMB Board Plan</div>
+      <div class="sb-brand-sub">1 September 2026</div>
+    </div>
+  </div>
+  <nav class="sb-nav">
+    <span class="sb-section-label">The plan</span>
+    <a href="index.html">📄 Overview</a>
+    <a href="action-plan.html">🗂 Action plan</a>
+    <a href="schedule.html">📅 Schedule</a>
+    <a href="governance.html" class="active">🏛 Governance</a>
+    <a href="automation.html">🤖 Automation & AI</a>
+    <a href="glossary.html">📖 Glossary</a>
+    <div class="sb-divider"></div>
+    <span class="sb-section-label">Demonstrations</span>
+    <button class="sb-group-trigger" id="sb-demo-trigger" onclick="sbToggle(this)">
+      <span>🔬 Demo tools</span><span class="sb-arrow">▾</span>
+    </button>
+    <div class="sb-group-items" id="sb-demo-items">
+      <a href="https://rmb-mineral-pricing-tool.streamlit.app/" class="sb-sub" target="_blank" rel="noopener">📤 Reporting platform</a>
+      <a href="https://rmb-mineral-pricing-tool.streamlit.app/" class="sb-sub" target="_blank" rel="noopener">📉 Risk-pricing model</a>
+      <a href="https://rmb-mineral-pricing-tool.streamlit.app/" class="sb-sub" target="_blank" rel="noopener">💠 3T pricing tool</a>
+    </div>
+    <div class="sb-divider"></div>
+    <span class="sb-section-label">Documents</span>
+    <button class="sb-group-trigger" id="sb-doc-trigger" onclick="sbToggle(this)">
+      <span>⬇ Download</span><span class="sb-arrow">▾</span>
+    </button>
+    <div class="sb-group-items" id="sb-doc-items">
+      <a href="docs/RMB__BoD-2026-09-01_Action-plan_detailed.docx" class="sb-sub">📘 Detailed (Word)</a>
+      <a href="docs/RMB__BoD-2026-09-01_Action-plan_detailed.pdf" class="sb-sub">📕 Detailed (PDF)</a>
+      <a href="docs/RMB__BoD-2026-09-01_Action-plan_condensed.docx" class="sb-sub">📗 Condensed (Word)</a>
+      <a href="docs/RMB__BoD-2026-09-01_Action-plan_condensed.pdf" class="sb-sub">📙 Condensed (PDF)</a>
+    </div>
+  </nav>
+</aside>
+
+<div class="sb-topbar">
+  <div class="sb-topbar-logo">RMB<br>BoD</div>
+  <div class="sb-topbar-title">RMB Board Plan</div>
+  <button class="sb-hamburger" id="sb-hbg" onclick="sbMobileToggle()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</div>
+<div class="sb-overlay" id="sb-overlay" onclick="sbMobileClose()"></div>
+<div class="page-wrap">
+
+<div class="hero">
+  <div class="hero-bg-mesh"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="eyebrow fade-up au-1">Governance</div>
+    <h1 class="hero-title fade-up au-2" style="white-space:normal">Who does what, and how information reaches a <span class="accent">decision</span></h1>
+    <p class="hero-lead fade-up au-3">The mineral market intelligence function reports on two lines at once, and the same written products serve both. Offices are named rather than individuals, since post-holders change.</p>
+    <p class="hero-meta fade-up au-4">Responsibilities marked (P) are proposals requiring confirmation by Senior Management</p>
+    
+  </div>
+</div>
+
+<div class="section">
+  <div class="eyebrow">Reporting lines</div>
+  <h2 class="section-title">Two lines, one set of products</h2>
+  <div class="lines-grid">
+    <div class="card" style="border-top:4px solid var(--g-deep)">
+      <div class="card-title">RMB Senior Management</div>
+      <div class="card-body">The CEO, the CGO, the heads of department and the division managers, together with any other officer whose responsibilities in the sector make notification necessary.</div>
+      <p style="margin-top:12px;font-style:italic;color:var(--text-muted);font-size:13px">Operational direction, resources, technical arbitration.</p>
+    </div>
+    <div class="card" style="border-top:4px solid var(--blue)">
+      <div class="card-title">Board finance committee</div>
+      <div class="card-body">An informal committee chaired by Mr. Dorian Cyubahiro, Advisor to the Minister of Finance and member of the RMB Board of Directors. It requires no formal constitution.</div>
+      <p style="margin-top:12px;font-style:italic;color:var(--text-muted);font-size:13px">Strategic direction, validation of proposed mechanisms before implementation, financing matters.</p>
+    </div>
+  </div>
+  <p class="section-lead" style="margin-top:26px">A proposal reaches Senior Management first and the Board committee second, so the committee receives a technically reviewed document with a management position attached. The exception is an alert, which goes to the CEO and the committee chair at the same time, within 48 hours. Licence revocation is decided by the CEO on the recommendation of the competent RMB organ.</p>
+</div>
+
+<div class="section section-alt">
+  <div class="eyebrow">Responsibility matrix</div>
+  <h2 class="section-title">RACI</h2>
+  <p class="section-lead">Select a column heading to highlight one role across every workstream. <strong>R</strong> delivers, <strong>A</strong> approves, <strong>C</strong> is consulted, <strong>I</strong> is informed.</p>
+  <div class="table-scroll"><table class="data-table raci" id="raci">
+<thead><tr><th>Workstream</th><th class="c" onclick="raciHi(0)" title="Board finance committee (informal), chaired by Mr. Dorian Cyubahiro">BC</th><th class="c" onclick="raciHi(1)" title="Chief Executive Officer">CEO</th><th class="c" onclick="raciHi(2)" title="Head of Department">HoD</th><th class="c" onclick="raciHi(3)" title="Cadastre and digital information division">CAD</th><th class="c" onclick="raciHi(4)" title="Extraction and inspection division">INS</th><th class="c" onclick="raciHi(5)" title="Head of IT team">IT</th><th class="c" onclick="raciHi(6)" title="Legal">LEG</th><th class="c" onclick="raciHi(7)" title="Mineral market intelligence expert">MMIE</th><th class="c" onclick="raciHi(8)" title="SPIU coordinator">SPIU</th></tr></thead>
+<tbody><tr><td>WS1, company oversight through reporting</td><td class="c v-A">A</td><td class="c v-A">A</td><td class="c v-C">C</td><td class="c v-R">R</td><td class="c v-C">C</td><td class="c v-R">R</td><td class="c v-C">C</td><td class="c v-R">R</td><td class="c v-I">I</td></tr><tr><td>WS2, licence portfolio clean-up</td><td class="c v-I">I</td><td class="c v-A">A</td><td class="c v-C">C</td><td class="c v-R">R</td><td class="c v-R">R</td><td class="c v-C">C</td><td class="c v-C">C</td><td class="c v-R">R</td><td class="c v-I">I</td></tr><tr><td>WS3, de-risking and financing</td><td class="c v-A">A</td><td class="c v-A">A</td><td class="c v-C">C</td><td class="c v-C">C</td><td class="c v-C">C</td><td class="c v-C">C</td><td class="c v-C">C</td><td class="c v-R">R</td><td class="c v-C">C</td></tr><tr><td>WS4, prices predictability</td><td class="c v-A">A</td><td class="c v-A">A</td><td class="c v-C">C</td><td class="c v-I">I</td><td class="c v-C">C</td><td class="c v-C">C</td><td class="c v-I">I</td><td class="c v-R">R</td><td class="c v-I">I</td></tr><tr><td>WS5, mobilisation and governance</td><td class="c v-I">I</td><td class="c v-A">A</td><td class="c v-C">C</td><td class="c v-I">I</td><td class="c v-I">I</td><td class="c v-I">I</td><td class="c v-C">C</td><td class="c v-R">R</td><td class="c v-C">C</td></tr><tr><td>WS6, decision ecosystem, automation and AI</td><td class="c v-I">I</td><td class="c v-A">A</td><td class="c v-C">C</td><td class="c v-C">C</td><td class="c v-I">I</td><td class="c v-R">R</td><td class="c v-C">C</td><td class="c v-R">R</td><td class="c v-I">I</td></tr></tbody>
+</table></div>
+<p style="font-size:13px;color:var(--text-muted);margin-top:12px;line-height:1.9"><strong>BC</strong> Board finance committee (informal), chaired by Mr. Dorian Cyubahiro &nbsp;·&nbsp; <strong>CEO</strong> Chief Executive Officer &nbsp;·&nbsp; <strong>HoD</strong> Head of Department &nbsp;·&nbsp; <strong>CAD</strong> Cadastre and digital information division &nbsp;·&nbsp; <strong>INS</strong> Extraction and inspection division &nbsp;·&nbsp; <strong>IT</strong> Head of IT team &nbsp;·&nbsp; <strong>LEG</strong> Legal &nbsp;·&nbsp; <strong>MMIE</strong> Mineral market intelligence expert &nbsp;·&nbsp; <strong>SPIU</strong> SPIU coordinator</p>
+</div>
+
+<div class="section">
+  <div class="eyebrow">Offices</div>
+  <h2 class="section-title">Who takes part</h2>
+  <p class="section-lead">Offices rather than individuals, since post-holders change.</p>
+  <div class="table-scroll"><table class="data-table">
+  <thead><tr><th style="width:340px">Office</th><th>Part taken in this plan</th></tr></thead>
+  <tbody><tr><td><strong>Chief Executive Officer</strong></td><td>Approves the plan and its resourcing, decides on technical and analytical matters, decides licence revocation on the recommendation of the competent organ.</td></tr><tr><td><strong>Chief Geo-Hazard Officer</strong></td><td>Informed, consulted where geohazard and land-use considerations bear on licence decisions.</td></tr><tr><td><strong>Head of Department of Mines, Petroleum and Gas Exploration</strong></td><td>Line supervision of the market intelligence function, consulted on all workstreams.</td></tr><tr><td><strong>Advisor to the Chief Executive Officer</strong></td><td>Coordination with the CEO's office, support on Board and policy documents.</td></tr><tr><td><strong>SPIU Coordinator</strong></td><td>Consulted on the budget and procurement route for any permanent platform.</td></tr><tr><td><strong>Mining Extraction and Inspection Division Manager</strong></td><td>Field verification, inspection input to the licence mapping and to cost data.</td></tr><tr><td><strong>Mining Cadaster and Digital Information Division Manager</strong></td><td>Co-owner of the trading licence mapping and of the clean-up cycle.</td></tr><tr><td><strong>Mineral Exploration Division Manager</strong></td><td>Reporting framework and dormancy criteria for exploration licences, once the approach extends beyond trading.</td></tr><tr><td><strong>Head of IT team</strong></td><td>Technical counterpart for the demonstration platform, the analysis layer and the dashboards.</td></tr><tr><td><strong>Mineral market intelligence expert</strong></td><td>Delivery lead for the programme, reporting to Senior Management and to the Board finance committee.</td></tr>
+  <tr><td><strong>Chair, Board finance committee</strong></td><td>Receives the quarterly report, validates the mechanisms proposed under WS3 and WS4 before implementation, and is a first recipient of exception alerts.</td></tr></tbody>
+  </table></div>
+</div>
+
+<div class="section section-alt">
+  <div class="eyebrow">Decision workflow</div>
+  <h2 class="section-title">How information reaches a decision</h2>
+  <p class="section-lead">The point of this workflow is that no observation dies in a report. Select a step to see who owns it and how long it may take.</p>
+  <div class="steps">
+<button class="step" data-i="0" onclick="showStep(0)" aria-selected="true">
+  <span class="sn">1</span><span class="st">Capture</span></button>
+<button class="step" data-i="1" onclick="showStep(1)">
+  <span class="sn">2</span><span class="st">Automated validation</span></button>
+<button class="step" data-i="2" onclick="showStep(2)">
+  <span class="sn">3</span><span class="st">Analysis</span></button>
+<button class="step" data-i="3" onclick="showStep(3)">
+  <span class="sn">4</span><span class="st">Recommendation</span></button>
+<button class="step" data-i="4" onclick="showStep(4)">
+  <span class="sn">5</span><span class="st">Decision</span></button>
+<button class="step" data-i="5" onclick="showStep(5)">
+  <span class="sn">6</span><span class="st">Execution</span></button>
+<button class="step" data-i="6" onclick="showStep(6)">
+  <span class="sn">7</span><span class="st">Feedback</span></button></div>
+  <div class="stepdet" id="stepdet"></div>
+
+  <h3 style="font-family:var(--font-d);font-size:22px;margin:38px 0 10px;color:var(--text-head)">Reporting calendar</h3>
+  <div class="table-scroll"><table class="data-table">
+  <thead><tr><th style="width:220px">Report</th><th>Content</th><th style="width:250px">From and to</th><th style="width:170px">Frequency</th></tr></thead>
+  <tbody><tr><td><strong>Weekly progress log</strong></td><td>Milestone status, blockers, decisions needed. One page.</td><td>Mineral market intelligence expert to the head of department and the delivery team</td><td>Weekly, every Monday</td></tr><tr><td><strong>Monthly progress report</strong></td><td>Progress against the action plan, milestones met or missed with justification, resource issues, decisions required from Management.</td><td>Mineral market intelligence expert to the CEO, the CGO, the heads of department and the division managers</td><td>Monthly, first working Monday</td></tr><tr><td><strong>Monthly sector dashboard</strong></td><td>Prices, volumes, realised export values, deduction gaps, reporting compliance rate, licence health, key risk indicators.</td><td>Mineral market intelligence expert to Senior Management, extract to the Board committee</td><td>Monthly, by the 10th</td></tr><tr><td><strong>Quarterly report to the Board committee</strong></td><td>Consolidated progress, analytical findings, decisions taken and decisions requested, re-baselining proposals.</td><td>Mineral market intelligence expert, through the CEO, to the informal Board finance committee</td><td>Quarterly, within 15 days of quarter end</td></tr><tr><td><strong>Report to the full Board</strong></td><td>Summary of the committee's report, the live demonstrations, and any matter requiring a Board decision.</td><td>CEO and committee chair to the Board of Directors</td><td>At each ordinary Board meeting, next in early December 2026</td></tr><tr><td><strong>Exception alert</strong></td><td>Any material anomaly detected: pricing outside the reference band, a suspected fictitious licence or transaction, significant non-compliance, or an event affecting a Board commitment.</td><td>Mineral market intelligence expert to the CEO and the committee chair simultaneously</td><td>Within 48 hours of detection</td></tr></tbody>
+  </table></div>
+</div>
+
+<footer class="rmb-footer">
+  <div>
+    <div class="footer-brand">RMB <span>Board plan</span></div>
+    <div class="footer-meta">Board of Directors of 1 September 2026 · v3, 5 September 2026 · draft for review</div>
+  </div>
+  <div class="footer-meta">Jean Jacques Mutabaruka · Mineral market intelligence expert</div>
+</footer>
+</div>
+<div id="tip" role="tooltip"></div>
+<script src="nav.js"></script>
+<script src="glossary-tip.js"></script>
+<script>const WORKFLOW=[{"step":"1","name":"Capture","sla":"Per the framework's deadlines","desc":"Companies submit through the platform, in the format and at the frequency set by the reporting framework. Contracts, invoices and assay reports enter the same repository.","who":"Operators, cadastre and digital information division"},{"step":"2","name":"Automated validation","sla":"Immediate","desc":"Completeness, consistency and plausibility rules run at upload. The sender receives immediate feedback and a chance to correct before the report is accepted.","who":"The platform, supervised by the head of IT team"},{"step":"3","name":"Analysis","sla":"5 working days","desc":"Cross-source reconciliation and anomaly detection run automatically. The market intelligence function interprets the output and separates a data problem from a real finding.","who":"Mineral market intelligence expert"},{"step":"4","name":"Recommendation","sla":"5 working days","desc":"Every finding leaves the analysis stage as a written recommendation with options, expected effect and the authority competent to decide. No finding is circulated without a proposed course of action.","who":"Mineral market intelligence expert"},{"step":"5","name":"Decision","sla":"Next scheduled meeting, or 10 working days if urgent","desc":"Technical and analytical matters are decided by Senior Management. Matters with a budget, regulatory or strategic dimension go to the Board committee and, where required, to the full Board. Licence revocation is decided by the CEO on the recommendation of the competent RMB organ.","who":"CEO, Board committee, or Board"},{"step":"6","name":"Execution","sla":"As set in the decision","desc":"The decision is assigned to a named owner with a deadline and recorded in the programme dashboard.","who":"Named owner"},{"step":"7","name":"Feedback","sla":"At the next reporting cycle","desc":"The effect of the decision is measured against the indicator that triggered it, reported back to the deciding body, and the loop is closed or reopened.","who":"Mineral market intelligence expert"}];</script><script src="governance.js"></script>
+</body>
+</html>
