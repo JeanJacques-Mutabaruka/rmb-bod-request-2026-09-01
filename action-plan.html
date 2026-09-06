@@ -64,7 +64,7 @@
   <div class="hero-grid"></div>
   <div class="hero-content">
     <div class="eyebrow fade-up au-1">Action plan</div>
-    <h1 class="hero-title fade-up au-2" style="white-space:normal">Thirty-six activities, six <span class="accent">workstreams</span></h1>
+    <h1 class="hero-title fade-up au-2" style="white-space:normal">Forty-one activities, seven <span class="accent">workstreams</span></h1>
     <p class="hero-lead fade-up au-3">Every activity carries its sub-activities, its deliverable, a lead, the supporting parties, a start date, a due date, its duration and its dependencies. Select the green <strong>+</strong> on any row to read a fuller explanation of what the activity consists in and why it is there.</p>
     <p class="hero-meta fade-up au-4">Dates carry a day count: D+0 is 1 September 2026 · responsibilities marked (P) are proposals requiring confirmation</p>
     
@@ -74,7 +74,7 @@
 <div class="section">
   <div class="plan-controls">
     <button class="chip active" data-ws="all" onclick="wsFilter(this)">All workstreams</button>
-    <button class="chip" data-ws="WS1" onclick="wsFilter(this)" title="Company oversight through enforced reporting"><span class="dot" style="background:#1A5C38"></span>WS1</button><button class="chip" data-ws="WS2" onclick="wsFilter(this)" title="Licence portfolio clean-up (mineral trading companies)"><span class="dot" style="background:#B8860B"></span>WS2</button><button class="chip" data-ws="WS3" onclick="wsFilter(this)" title="Sector de-risking and financing framework"><span class="dot" style="background:#1B6CA8"></span>WS3</button><button class="chip" data-ws="WS4" onclick="wsFilter(this)" title="Prices predictability for processing-plant investors"><span class="dot" style="background:#5B2C6F"></span>WS4</button><button class="chip" data-ws="WS5" onclick="wsFilter(this)" title="Programme mobilisation and governance"><span class="dot" style="background:#6B7B6F"></span>WS5</button><button class="chip" data-ws="WS6" onclick="wsFilter(this)" title="Decision-making ecosystem, automation and AI (cross-cutting)"><span class="dot" style="background:#8C5A2B"></span>WS6</button>
+    <button class="chip" data-ws="WS1" onclick="wsFilter(this)" title="Company oversight through enforced reporting"><span class="dot" style="background:#1A5C38"></span>WS1</button><button class="chip" data-ws="WS2" onclick="wsFilter(this)" title="Licence portfolio clean-up (mineral trading companies)"><span class="dot" style="background:#B8860B"></span>WS2</button><button class="chip" data-ws="WS3" onclick="wsFilter(this)" title="Quantification of losses to the Rwandan economy"><span class="dot" style="background:#C00000"></span>WS3</button><button class="chip" data-ws="WS4" onclick="wsFilter(this)" title="Sector de-risking and financing framework"><span class="dot" style="background:#1B6CA8"></span>WS4</button><button class="chip" data-ws="WS5" onclick="wsFilter(this)" title="Prices predictability for processing-plant investors"><span class="dot" style="background:#5B2C6F"></span>WS5</button><button class="chip" data-ws="WS6" onclick="wsFilter(this)" title="Programme mobilisation and governance"><span class="dot" style="background:#6B7B6F"></span>WS6</button><button class="chip" data-ws="WS7" onclick="wsFilter(this)" title="Decision-making ecosystem, automation and AI (cross-cutting)"><span class="dot" style="background:#8C5A2B"></span>WS7</button>
     <input class="plan-search" id="plan-q" type="search" placeholder="Search activities" aria-label="Search activities" oninput="planSearch()">
     <span class="plan-count" id="plan-count"></span>
     <button class="chip" onclick="expandAll()">Expand all</button>
@@ -189,11 +189,11 @@
     <div><span>Depends on</span><b>A1.1, A1.2</b></div>
   </div>
 </div></td></tr>
-<tr class="act-row" data-ws="WS1" data-search="a1.5 automated validation and analysis layer completeness, consistency and arithmetic checks applied at upload, with immediate feedback to the sender anomaly detection: outlier grades, prices outside the reference band, tonnage imbalances, duplicated documents, patterns typical of a dormant holder cross-source reconciliation against assay reports, invoices and, where data-sharing allows, rra and bnr records aggregated indicators feeding ws2, ws3 and ws4 the layer that turns submitted files into findings without a person reading them. deterministic checks run at upload so the company corrects its own errors before the data enters rmb's systems. anomaly detection then flags what deserves a human look: grades inconsistent with the deposit, prices outside the reference band, tonnage that does not balance, documents that duplicate one another. cross-source reconciliation compares what a company declared in one channel against what it declared in another. the same engine feeds the licence work, the risk indicators and the price monitoring, which is why it is built once rather than three times. validation and analysis layer, first release then full mineral market intelligence expert head of it team">
+<tr class="act-row" data-ws="WS1" data-search="a1.5 automated validation and analysis layer completeness, consistency and arithmetic checks applied at upload, with immediate feedback to the sender anomaly detection: outlier grades, prices outside the reference band, tonnage imbalances, duplicated documents, patterns typical of a dormant holder cross-source reconciliation against assay reports, invoices and, where data-sharing allows, rra and bnr records aggregated indicators feeding ws2, ws4 and ws5 the layer that turns submitted files into findings without a person reading them. deterministic checks run at upload so the company corrects its own errors before the data enters rmb's systems. anomaly detection then flags what deserves a human look: grades inconsistent with the deposit, prices outside the reference band, tonnage that does not balance, documents that duplicate one another. cross-source reconciliation compares what a company declared in one channel against what it declared in another. the same engine feeds the licence work, the risk indicators and the price monitoring, which is why it is built once rather than three times. validation and analysis layer, first release then full mineral market intelligence expert head of it team">
   <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
   <td class="c-ref">A1.5</td>
   <td class="c-act"><div class="act-title">Automated validation and analysis layer</div>
-    <ul class="act-subs"><li>Completeness, consistency and arithmetic checks applied at upload, with immediate feedback to the sender</li><li>Anomaly detection: outlier grades, prices outside the reference band, tonnage imbalances, duplicated documents, patterns typical of a dormant holder</li><li>Cross-source reconciliation against assay reports, invoices and, where data-sharing allows, RRA and BNR records</li><li>Aggregated indicators feeding WS2, WS3 and WS4</li></ul></td>
+    <ul class="act-subs"><li>Completeness, consistency and arithmetic checks applied at upload, with immediate feedback to the sender</li><li>Anomaly detection: outlier grades, prices outside the reference band, tonnage imbalances, duplicated documents, patterns typical of a dormant holder</li><li>Cross-source reconciliation against assay reports, invoices and, where data-sharing allows, RRA and BNR records</li><li>Aggregated indicators feeding WS2, WS4 and WS5</li></ul></td>
   <td>Validation and analysis layer, first release then full</td>
   <td>Mineral market intelligence expert</td>
   <td>Head of IT team</td>
@@ -449,11 +449,142 @@
     <div><span>Duration</span><b>31 days (~1 month)</b></div>
     <div><span>Depends on</span><b>A1.5, A2.5</b></div>
   </div>
-</div></td></tr><tr class="ws-row" data-ws="WS3"><td colspan="10" style="background:#1B6CA8">
-    <strong>WS3</strong> &nbsp; Sector de-risking and financing framework &nbsp; <span style="opacity:.75">(01 Oct 2026 to 31 May 2027, 243 days (~8 months))</span></td></tr>
-<tr class="act-row" data-ws="WS3" data-search="a3.1 mapping, explanation and modelling of risks in the value chain map financial risks (price, counterparty, liquidity, foreign exchange, financing) and non-financial risks that carry a financial impact (operational, geological, compliance, traceability, environmental) explain each risk in the terms a lender or an insurer uses: what triggers it, who bears it, what it costs model the risks quantitatively, per segment of the value chain score by likelihood and impact, and identify where rmb's own instruments already reduce exposure a december board deliverable. financing is not withheld from the sector because lenders dislike mining; it is withheld because the risks are undescribed, and an undescribed risk is priced as if it were the worst case. this activity maps the risks across the value chain, explains each one in the terms a lender or an insurer actually uses (what triggers it, who bears it, what it costs), and models it quantitatively per segment. it covers financial risks such as price, counterparty, liquidity and foreign exchange, and non-financial risks that carry a financial impact, such as operational, geological, compliance, traceability and environmental risk. it also identifies where rmb's own instruments already reduce exposure, which is often more than the market assumes. sector risk map with explanatory note and quantified model mineral market intelligence expert all divisions, banks and insurers (p)">
+</div></td></tr><tr class="ws-row" data-ws="WS3"><td colspan="10" style="background:#C00000">
+    <strong>WS3</strong> &nbsp; Quantification of losses to the Rwandan economy &nbsp; <span style="opacity:.75">(08 Sep 2026 to 15 Nov 2026, 69 days (~2 months))</span></td></tr>
+<tr class="act-row" data-ws="WS3" data-search="a3.1 definition of the loss taxonomy, historical period and data sources define each of the four loss categories precisely, with its calculation formula and the evidence that supports or contests it propose the historical period to be covered (a number of past years) for senior management to confirm identify the data sources for each category: signed contracts, invoices, assay reports and prefinancing agreements already held by rmb before any number is produced, the four categories the board named need a precise, defensible definition, because 'losses' is otherwise a word anyone can dispute. payability loss is defined against the treatment-charge terms actually stipulated in signed contracts, compared with a fair reference. penalty loss is defined as any deduction labelled a penalty without a stated, verifiable justification in the contract or the assay report. unpriced-content loss covers secondary elements genuinely present in a concentrate, such as tantalum in a cassiterite lot or niobium in a coltan lot, that were not assayed or paid for. prefinancing-interest loss is the interest actually paid on prefinancing arrangements, benchmarked against a reasonable cost of capital. this activity also proposes the historical period to be covered, since 'a given period' in the board's request needs a number of years fixed before data collection can start. loss taxonomy, methodology note and confirmed historical period mineral market intelligence expert legal (p), extraction and inspection division">
   <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
   <td class="c-ref">A3.1</td>
+  <td class="c-act"><div class="act-title">Definition of the loss taxonomy, historical period and data sources</div>
+    <ul class="act-subs"><li>Define each of the four loss categories precisely, with its calculation formula and the evidence that supports or contests it</li><li>Propose the historical period to be covered (a number of past years) for Senior Management to confirm</li><li>Identify the data sources for each category: signed contracts, invoices, assay reports and prefinancing agreements already held by RMB</li></ul></td>
+  <td>Loss taxonomy, methodology note and confirmed historical period</td>
+  <td>Mineral market intelligence expert</td>
+  <td>Legal (P), extraction and inspection division</td>
+  <td class="c-num">08 Sep 2026 (D+7)</td>
+  <td class="c-num c-due">15 Oct 2026 (D+44)</td>
+  <td class="c-num">38 days (~1 month)</td>
+  <td class="c-num">none</td>
+</tr>
+<tr class="detail-row" data-ws="WS3"><td colspan="10"><div class="detail-inner">
+  <div class="detail-lab">What this activity consists in</div>
+  <p>Before any number is produced, the four categories the Board named need a precise, defensible definition, because 'losses' is otherwise a word anyone can dispute. Payability loss is defined against the treatment-charge terms actually stipulated in signed contracts, compared with a fair reference. Penalty loss is defined as any deduction labelled a penalty without a stated, verifiable justification in the contract or the assay report. Unpriced-content loss covers secondary elements genuinely present in a concentrate, such as tantalum in a cassiterite lot or niobium in a coltan lot, that were not assayed or paid for. Prefinancing-interest loss is the interest actually paid on prefinancing arrangements, benchmarked against a reasonable cost of capital. This activity also proposes the historical period to be covered, since 'a given period' in the Board's request needs a number of years fixed before data collection can start.</p>
+  <div class="detail-kv">
+    <div><span>Deliverable</span><b>Loss taxonomy, methodology note and confirmed historical period</b></div>
+    <div><span>Lead</span><b>Mineral market intelligence expert</b></div>
+    <div><span>Support</span><b>Legal (P), extraction and inspection division</b></div>
+    <div><span>Starts</span><b>08 Sep 2026 (D+7)</b></div>
+    <div><span>Ends</span><b>15 Oct 2026 (D+44)</b></div>
+    <div><span>Duration</span><b>38 days (~1 month)</b></div>
+    <div><span>Depends on</span><b>none</b></div>
+  </div>
+</div></td></tr>
+<tr class="act-row" data-ws="WS3" data-search="a3.2 demonstration loss-quantification model build in streamlit, one module per loss category, shareable and retaining no data once the session ends reuse the contract, invoice and assay parsing already built for the reporting platform and the risk-pricing model accept a defined historical dataset and produce a computed loss per category, per mineral and per year built on the same principle as the other demonstrations: a streamlit tool, shareable, retaining nothing, requiring no budget or hosting decision. four modules, one per loss category, so a user can see each source of loss separately as well as combined. where the underlying methods already exist, from the risk-pricing work in ws4 and the price-reference work in ws5, they are reused rather than rebuilt, and the contract and invoice parsing is the same engine that serves the reporting platform in ws1, so that one parsing layer feeds every model rather than three different ones. working demonstration loss-quantification model mineral market intelligence expert head of it team">
+  <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
+  <td class="c-ref">A3.2</td>
+  <td class="c-act"><div class="act-title">Demonstration loss-quantification model</div>
+    <ul class="act-subs"><li>Build in Streamlit, one module per loss category, shareable and retaining no data once the session ends</li><li>Reuse the contract, invoice and assay parsing already built for the reporting platform and the risk-pricing model</li><li>Accept a defined historical dataset and produce a computed loss per category, per mineral and per year</li></ul></td>
+  <td>Working demonstration loss-quantification model</td>
+  <td>Mineral market intelligence expert</td>
+  <td>Head of IT team</td>
+  <td class="c-num">08 Sep 2026 (D+7)</td>
+  <td class="c-num c-due">31 Oct 2026 (D+60)</td>
+  <td class="c-num">54 days (~2 months)</td>
+  <td class="c-num">none</td>
+</tr>
+<tr class="detail-row" data-ws="WS3"><td colspan="10"><div class="detail-inner">
+  <div class="detail-lab">What this activity consists in</div>
+  <p>Built on the same principle as the other demonstrations: a Streamlit tool, shareable, retaining nothing, requiring no budget or hosting decision. Four modules, one per loss category, so a user can see each source of loss separately as well as combined. Where the underlying methods already exist, from the risk-pricing work in WS4 and the price-reference work in WS5, they are reused rather than rebuilt, and the contract and invoice parsing is the same engine that serves the reporting platform in WS1, so that one parsing layer feeds every model rather than three different ones.</p>
+  <div class="detail-kv">
+    <div><span>Deliverable</span><b>Working demonstration loss-quantification model</b></div>
+    <div><span>Lead</span><b>Mineral market intelligence expert</b></div>
+    <div><span>Support</span><b>Head of IT team</b></div>
+    <div><span>Starts</span><b>08 Sep 2026 (D+7)</b></div>
+    <div><span>Ends</span><b>31 Oct 2026 (D+60)</b></div>
+    <div><span>Duration</span><b>54 days (~2 months)</b></div>
+    <div><span>Depends on</span><b>none</b></div>
+  </div>
+</div></td></tr>
+<tr class="act-row" data-ws="WS3" data-search="a3.3 historical data population and computation assemble the historical contracts, invoices, assay reports and prefinancing agreements for the confirmed period apply realistic, documented assumptions wherever a record is missing or unverifiable, flagged clearly as assumptions run the model and produce the first computed estimate, per category, per mineral and per year the taxonomy and the tool are only as good as what feeds them. this activity gathers the signed contracts, invoices, assay reports and prefinancing agreements covering the confirmed historical period, and runs the model against them. where a document is missing or a figure cannot be verified, a realistic assumption is used instead of leaving a gap, and every assumption is recorded and flagged as such rather than presented as fact, so that the resulting estimate can be defended line by line. populated model and first historical loss estimate mineral market intelligence expert extraction and inspection division, cadastre and digital information division">
+  <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
+  <td class="c-ref">A3.3</td>
+  <td class="c-act"><div class="act-title">Historical data population and computation</div>
+    <ul class="act-subs"><li>Assemble the historical contracts, invoices, assay reports and prefinancing agreements for the confirmed period</li><li>Apply realistic, documented assumptions wherever a record is missing or unverifiable, flagged clearly as assumptions</li><li>Run the model and produce the first computed estimate, per category, per mineral and per year</li></ul></td>
+  <td>Populated model and first historical loss estimate</td>
+  <td>Mineral market intelligence expert</td>
+  <td>Extraction and inspection division, cadastre and digital information division</td>
+  <td class="c-num">16 Oct 2026 (D+45)</td>
+  <td class="c-num c-due">07 Nov 2026 (D+67)</td>
+  <td class="c-num">23 days</td>
+  <td class="c-num">A3.1, A3.2</td>
+</tr>
+<tr class="detail-row" data-ws="WS3"><td colspan="10"><div class="detail-inner">
+  <div class="detail-lab">What this activity consists in</div>
+  <p>The taxonomy and the tool are only as good as what feeds them. This activity gathers the signed contracts, invoices, assay reports and prefinancing agreements covering the confirmed historical period, and runs the model against them. Where a document is missing or a figure cannot be verified, a realistic assumption is used instead of leaving a gap, and every assumption is recorded and flagged as such rather than presented as fact, so that the resulting estimate can be defended line by line.</p>
+  <div class="detail-kv">
+    <div><span>Deliverable</span><b>Populated model and first historical loss estimate</b></div>
+    <div><span>Lead</span><b>Mineral market intelligence expert</b></div>
+    <div><span>Support</span><b>Extraction and inspection division, cadastre and digital information division</b></div>
+    <div><span>Starts</span><b>16 Oct 2026 (D+45)</b></div>
+    <div><span>Ends</span><b>07 Nov 2026 (D+67)</b></div>
+    <div><span>Duration</span><b>23 days</b></div>
+    <div><span>Depends on</span><b>A3.1, A3.2</b></div>
+  </div>
+</div></td></tr>
+<tr class="act-row" data-ws="WS3" data-search="a3.4 validation and sensitivity check cross-check a sample of the computation against the underlying contracts, invoices and assay reports recompute under the high and low ends of every assumption to produce a sensitivity range document the confidence level and the main sources of uncertainty for each category a single headline number invites the question of how sure rmb is of it. a sample of the computation is cross-checked line by line against the underlying contracts and assay reports, and the model is run again under the high and low ends of every assumption, so that the estimate is presented as a defensible range rather than a false-precision figure. this is what makes the number survive scrutiny in front of the board and, if it goes further, in front of a company that disputes it. validated estimate with a stated sensitivity range mineral market intelligence expert legal (p)">
+  <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
+  <td class="c-ref">A3.4</td>
+  <td class="c-act"><div class="act-title">Validation and sensitivity check</div>
+    <ul class="act-subs"><li>Cross-check a sample of the computation against the underlying contracts, invoices and assay reports</li><li>Recompute under the high and low ends of every assumption to produce a sensitivity range</li><li>Document the confidence level and the main sources of uncertainty for each category</li></ul></td>
+  <td>Validated estimate with a stated sensitivity range</td>
+  <td>Mineral market intelligence expert</td>
+  <td>Legal (P)</td>
+  <td class="c-num">08 Nov 2026 (D+68)</td>
+  <td class="c-num c-due">15 Nov 2026 (D+75)</td>
+  <td class="c-num">8 days</td>
+  <td class="c-num">A3.3</td>
+</tr>
+<tr class="detail-row" data-ws="WS3"><td colspan="10"><div class="detail-inner">
+  <div class="detail-lab">What this activity consists in</div>
+  <p>A single headline number invites the question of how sure RMB is of it. A sample of the computation is cross-checked line by line against the underlying contracts and assay reports, and the model is run again under the high and low ends of every assumption, so that the estimate is presented as a defensible range rather than a false-precision figure. This is what makes the number survive scrutiny in front of the Board and, if it goes further, in front of a company that disputes it.</p>
+  <div class="detail-kv">
+    <div><span>Deliverable</span><b>Validated estimate with a stated sensitivity range</b></div>
+    <div><span>Lead</span><b>Mineral market intelligence expert</b></div>
+    <div><span>Support</span><b>Legal (P)</b></div>
+    <div><span>Starts</span><b>08 Nov 2026 (D+68)</b></div>
+    <div><span>Ends</span><b>15 Nov 2026 (D+75)</b></div>
+    <div><span>Duration</span><b>8 days</b></div>
+    <div><span>Depends on</span><b>A3.3</b></div>
+  </div>
+</div></td></tr>
+<tr class="act-row" data-ws="WS3" data-search="a3.5 explanatory note and board presentation write a plain-language explanation of each loss category, its magnitude and its main drivers prepare the presentation and the live run of the model for the december board meeting state clearly what would need to change to reduce each category of loss a number without an explanation invites more argument than agreement. this note sets out, in plain language, what each of the four categories means, how large it is, what mainly drives it, and what could realistically be done about it, so the board can discuss the substance rather than the arithmetic. it is presented alongside the live model at the december meeting, in the same session as the other demonstrations. explanatory note and board presentation mineral market intelligence expert ceo's office">
+  <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
+  <td class="c-ref">A3.5</td>
+  <td class="c-act"><div class="act-title">Explanatory note and Board presentation</div>
+    <ul class="act-subs"><li>Write a plain-language explanation of each loss category, its magnitude and its main drivers</li><li>Prepare the presentation and the live run of the model for the December Board meeting</li><li>State clearly what would need to change to reduce each category of loss</li></ul></td>
+  <td>Explanatory note and Board presentation</td>
+  <td>Mineral market intelligence expert</td>
+  <td>CEO's office</td>
+  <td class="c-num">08 Nov 2026 (D+68)</td>
+  <td class="c-num c-due">15 Nov 2026 (D+75)</td>
+  <td class="c-num">8 days</td>
+  <td class="c-num">A3.4</td>
+</tr>
+<tr class="detail-row" data-ws="WS3"><td colspan="10"><div class="detail-inner">
+  <div class="detail-lab">What this activity consists in</div>
+  <p>A number without an explanation invites more argument than agreement. This note sets out, in plain language, what each of the four categories means, how large it is, what mainly drives it, and what could realistically be done about it, so the Board can discuss the substance rather than the arithmetic. It is presented alongside the live model at the December meeting, in the same session as the other demonstrations.</p>
+  <div class="detail-kv">
+    <div><span>Deliverable</span><b>Explanatory note and Board presentation</b></div>
+    <div><span>Lead</span><b>Mineral market intelligence expert</b></div>
+    <div><span>Support</span><b>CEO's office</b></div>
+    <div><span>Starts</span><b>08 Nov 2026 (D+68)</b></div>
+    <div><span>Ends</span><b>15 Nov 2026 (D+75)</b></div>
+    <div><span>Duration</span><b>8 days</b></div>
+    <div><span>Depends on</span><b>A3.4</b></div>
+  </div>
+</div></td></tr><tr class="ws-row" data-ws="WS4"><td colspan="10" style="background:#1B6CA8">
+    <strong>WS4</strong> &nbsp; Sector de-risking and financing framework &nbsp; <span style="opacity:.75">(01 Oct 2026 to 31 May 2027, 243 days (~8 months))</span></td></tr>
+<tr class="act-row" data-ws="WS4" data-search="a4.1 mapping, explanation and modelling of risks in the value chain map financial risks (price, counterparty, liquidity, foreign exchange, financing) and non-financial risks that carry a financial impact (operational, geological, compliance, traceability, environmental) explain each risk in the terms a lender or an insurer uses: what triggers it, who bears it, what it costs model the risks quantitatively, per segment of the value chain score by likelihood and impact, and identify where rmb's own instruments already reduce exposure a december board deliverable. financing is not withheld from the sector because lenders dislike mining; it is withheld because the risks are undescribed, and an undescribed risk is priced as if it were the worst case. this activity maps the risks across the value chain, explains each one in the terms a lender or an insurer actually uses (what triggers it, who bears it, what it costs), and models it quantitatively per segment. it covers financial risks such as price, counterparty, liquidity and foreign exchange, and non-financial risks that carry a financial impact, such as operational, geological, compliance, traceability and environmental risk. it also identifies where rmb's own instruments already reduce exposure, which is often more than the market assumes. sector risk map with explanatory note and quantified model mineral market intelligence expert all divisions, banks and insurers (p)">
+  <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
+  <td class="c-ref">A4.1</td>
   <td class="c-act"><div class="act-title">Mapping, explanation and modelling of risks in the value chain</div>
     <ul class="act-subs"><li>Map financial risks (price, counterparty, liquidity, foreign exchange, financing) and non-financial risks that carry a financial impact (operational, geological, compliance, traceability, environmental)</li><li>Explain each risk in the terms a lender or an insurer uses: what triggers it, who bears it, what it costs</li><li>Model the risks quantitatively, per segment of the value chain</li><li>Score by likelihood and impact, and identify where RMB's own instruments already reduce exposure</li></ul></td>
   <td>Sector risk map with explanatory note and quantified model</td>
@@ -464,7 +595,7 @@
   <td class="c-num">61 days (~2 months)</td>
   <td class="c-num">none</td>
 </tr>
-<tr class="detail-row" data-ws="WS3"><td colspan="10"><div class="detail-inner">
+<tr class="detail-row" data-ws="WS4"><td colspan="10"><div class="detail-inner">
   <div class="detail-lab">What this activity consists in</div>
   <p>A December Board deliverable. Financing is not withheld from the sector because lenders dislike mining; it is withheld because the risks are undescribed, and an undescribed risk is priced as if it were the worst case. This activity maps the risks across the value chain, explains each one in the terms a lender or an insurer actually uses (what triggers it, who bears it, what it costs), and models it quantitatively per segment. It covers financial risks such as price, counterparty, liquidity and foreign exchange, and non-financial risks that carry a financial impact, such as operational, geological, compliance, traceability and environmental risk. It also identifies where RMB's own instruments already reduce exposure, which is often more than the market assumes.</p>
   <div class="detail-kv">
@@ -477,9 +608,9 @@
     <div><span>Depends on</span><b>none</b></div>
   </div>
 </div></td></tr>
-<tr class="act-row" data-ws="WS3" data-search="a3.2 demonstration risk-pricing model build in streamlit, on the same principle as the reporting demonstration: shareable, no data retained price the mapped risks so a lender can see what a given exposure is worth, and what mitigation is worth design it to be run live with financial institutions, with their own assumptions substituted built on the same principle as the reporting demonstration: shareable, quick to build, retaining nothing. its job is to make a meeting with a bank a different kind of meeting. instead of rmb asserting that the sector is financeable, the model is run live, the bank substitutes its own assumptions, and the conversation moves to what a given exposure is worth and what specific mitigation is worth. a number that a lender helped produce is far harder to dismiss than a number presented to them. working demonstration risk-pricing model mineral market intelligence expert head of it team">
+<tr class="act-row" data-ws="WS4" data-search="a4.2 demonstration risk-pricing model build in streamlit, on the same principle as the reporting demonstration: shareable, no data retained price the mapped risks so a lender can see what a given exposure is worth, and what mitigation is worth design it to be run live with financial institutions, with their own assumptions substituted built on the same principle as the reporting demonstration: shareable, quick to build, retaining nothing. its job is to make a meeting with a bank a different kind of meeting. instead of rmb asserting that the sector is financeable, the model is run live, the bank substitutes its own assumptions, and the conversation moves to what a given exposure is worth and what specific mitigation is worth. a number that a lender helped produce is far harder to dismiss than a number presented to them. working demonstration risk-pricing model mineral market intelligence expert head of it team">
   <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
-  <td class="c-ref">A3.2</td>
+  <td class="c-ref">A4.2</td>
   <td class="c-act"><div class="act-title">Demonstration risk-pricing model</div>
     <ul class="act-subs"><li>Build in Streamlit, on the same principle as the reporting demonstration: shareable, no data retained</li><li>Price the mapped risks so a lender can see what a given exposure is worth, and what mitigation is worth</li><li>Design it to be run live with financial institutions, with their own assumptions substituted</li></ul></td>
   <td>Working demonstration risk-pricing model</td>
@@ -488,9 +619,9 @@
   <td class="c-num">15 Oct 2026 (D+44)</td>
   <td class="c-num c-due">30 Nov 2026 (D+90)</td>
   <td class="c-num">47 days (~2 months)</td>
-  <td class="c-num">A3.1</td>
+  <td class="c-num">A4.1</td>
 </tr>
-<tr class="detail-row" data-ws="WS3"><td colspan="10"><div class="detail-inner">
+<tr class="detail-row" data-ws="WS4"><td colspan="10"><div class="detail-inner">
   <div class="detail-lab">What this activity consists in</div>
   <p>Built on the same principle as the reporting demonstration: shareable, quick to build, retaining nothing. Its job is to make a meeting with a bank a different kind of meeting. Instead of RMB asserting that the sector is financeable, the model is run live, the bank substitutes its own assumptions, and the conversation moves to what a given exposure is worth and what specific mitigation is worth. A number that a lender helped produce is far harder to dismiss than a number presented to them.</p>
   <div class="detail-kv">
@@ -500,12 +631,12 @@
     <div><span>Starts</span><b>15 Oct 2026 (D+44)</b></div>
     <div><span>Ends</span><b>30 Nov 2026 (D+90)</b></div>
     <div><span>Duration</span><b>47 days (~2 months)</b></div>
-    <div><span>Depends on</span><b>A3.1</b></div>
+    <div><span>Depends on</span><b>A4.1</b></div>
   </div>
 </div></td></tr>
-<tr class="act-row" data-ws="WS3" data-search="a3.3 engagement with financial institutions around the model working sessions with local banks, bnr, minecofin, insurers and dfis, using the model rather than a presentation establish and record what evidence lenders require before they will finance the sector test appetite for specific instruments against the mitigation measures already committed working sessions rather than presentations, using the model as the object of discussion. the purpose is to extract and record what evidence lenders actually require before they will finance the sector, which is rarely what a regulator assumes, and to test appetite for specific instruments against the mitigation measures rmb has already committed to. the output is a documented set of requirements that the financing options study is then obliged to answer. engagement report with documented requirements mineral market intelligence expert, with the ceo's office banks, bnr, minecofin, insurers, dfis (p)">
+<tr class="act-row" data-ws="WS4" data-search="a4.3 engagement with financial institutions around the model working sessions with local banks, bnr, minecofin, insurers and dfis, using the model rather than a presentation establish and record what evidence lenders require before they will finance the sector test appetite for specific instruments against the mitigation measures already committed working sessions rather than presentations, using the model as the object of discussion. the purpose is to extract and record what evidence lenders actually require before they will finance the sector, which is rarely what a regulator assumes, and to test appetite for specific instruments against the mitigation measures rmb has already committed to. the output is a documented set of requirements that the financing options study is then obliged to answer. engagement report with documented requirements mineral market intelligence expert, with the ceo's office banks, bnr, minecofin, insurers, dfis (p)">
   <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
-  <td class="c-ref">A3.3</td>
+  <td class="c-ref">A4.3</td>
   <td class="c-act"><div class="act-title">Engagement with financial institutions around the model</div>
     <ul class="act-subs"><li>Working sessions with local banks, BNR, MINECOFIN, insurers and DFIs, using the model rather than a presentation</li><li>Establish and record what evidence lenders require before they will finance the sector</li><li>Test appetite for specific instruments against the mitigation measures already committed</li></ul></td>
   <td>Engagement report with documented requirements</td>
@@ -514,9 +645,9 @@
   <td class="c-num">01 Dec 2026 (D+91)</td>
   <td class="c-num c-due">31 Mar 2027 (D+211)</td>
   <td class="c-num">121 days (~4 months)</td>
-  <td class="c-num">A3.2</td>
+  <td class="c-num">A4.2</td>
 </tr>
-<tr class="detail-row" data-ws="WS3"><td colspan="10"><div class="detail-inner">
+<tr class="detail-row" data-ws="WS4"><td colspan="10"><div class="detail-inner">
   <div class="detail-lab">What this activity consists in</div>
   <p>Working sessions rather than presentations, using the model as the object of discussion. The purpose is to extract and record what evidence lenders actually require before they will finance the sector, which is rarely what a regulator assumes, and to test appetite for specific instruments against the mitigation measures RMB has already committed to. The output is a documented set of requirements that the financing options study is then obliged to answer.</p>
   <div class="detail-kv">
@@ -526,12 +657,12 @@
     <div><span>Starts</span><b>01 Dec 2026 (D+91)</b></div>
     <div><span>Ends</span><b>31 Mar 2027 (D+211)</b></div>
     <div><span>Duration</span><b>121 days (~4 months)</b></div>
-    <div><span>Depends on</span><b>A3.2</b></div>
+    <div><span>Depends on</span><b>A4.2</b></div>
   </div>
 </div></td></tr>
-<tr class="act-row" data-ws="WS3" data-search="a3.4 mitigation and monitoring strategy with key risk indicators for every risk, name the mitigating instrument and the residual exposure define key risk indicators and thresholds, each wired to an automatic data source in the reporting platform assign an owner and an escalation route to each indicator a risk map is a photograph; indicators are a pulse. for every mapped risk this activity names the mitigating instrument and states the residual exposure honestly, then defines indicators and thresholds that are wired to an automatic data source in the reporting platform rather than to a manual return. each indicator gets an owner and an escalation route, so that a threshold breach reaches a person who can act rather than a report that circulates. de-risking strategy and key risk indicator set mineral market intelligence expert head of it team, all divisions">
+<tr class="act-row" data-ws="WS4" data-search="a4.4 mitigation and monitoring strategy with key risk indicators for every risk, name the mitigating instrument and the residual exposure define key risk indicators and thresholds, each wired to an automatic data source in the reporting platform assign an owner and an escalation route to each indicator a risk map is a photograph; indicators are a pulse. for every mapped risk this activity names the mitigating instrument and states the residual exposure honestly, then defines indicators and thresholds that are wired to an automatic data source in the reporting platform rather than to a manual return. each indicator gets an owner and an escalation route, so that a threshold breach reaches a person who can act rather than a report that circulates. de-risking strategy and key risk indicator set mineral market intelligence expert head of it team, all divisions">
   <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
-  <td class="c-ref">A3.4</td>
+  <td class="c-ref">A4.4</td>
   <td class="c-act"><div class="act-title">Mitigation and monitoring strategy with key risk indicators</div>
     <ul class="act-subs"><li>For every risk, name the mitigating instrument and the residual exposure</li><li>Define key risk indicators and thresholds, each wired to an automatic data source in the reporting platform</li><li>Assign an owner and an escalation route to each indicator</li></ul></td>
   <td>De-risking strategy and key risk indicator set</td>
@@ -540,9 +671,9 @@
   <td class="c-num">04 Jan 2027 (D+125)</td>
   <td class="c-num c-due">31 Mar 2027 (D+211)</td>
   <td class="c-num">87 days (~3 months)</td>
-  <td class="c-num">A3.1</td>
+  <td class="c-num">A4.1</td>
 </tr>
-<tr class="detail-row" data-ws="WS3"><td colspan="10"><div class="detail-inner">
+<tr class="detail-row" data-ws="WS4"><td colspan="10"><div class="detail-inner">
   <div class="detail-lab">What this activity consists in</div>
   <p>A risk map is a photograph; indicators are a pulse. For every mapped risk this activity names the mitigating instrument and states the residual exposure honestly, then defines indicators and thresholds that are wired to an automatic data source in the reporting platform rather than to a manual return. Each indicator gets an owner and an escalation route, so that a threshold breach reaches a person who can act rather than a report that circulates.</p>
   <div class="detail-kv">
@@ -552,12 +683,12 @@
     <div><span>Starts</span><b>04 Jan 2027 (D+125)</b></div>
     <div><span>Ends</span><b>31 Mar 2027 (D+211)</b></div>
     <div><span>Duration</span><b>87 days (~3 months)</b></div>
-    <div><span>Depends on</span><b>A3.1</b></div>
+    <div><span>Depends on</span><b>A4.1</b></div>
   </div>
 </div></td></tr>
-<tr class="act-row" data-ws="WS3" data-search="a3.5 financing options study mining or sector fund, trade finance backed by registered contracts and verified assays, partial credit guarantee, warehouse receipt financing, equipment leasing, locally sourced offtake prefinancing for each option: cost, benefit, prerequisite, and which mapped risk it addresses rank the options against what the financial institutions said they need only now, with risks mapped, priced, mitigated and monitored, does it make sense to design instruments. each option is assessed on cost, benefit, prerequisite and which mapped risk it addresses, and the whole set is ranked against what the financial institutions said they needed rather than against what would be interesting to build. an instrument that does not answer a stated lender requirement does not survive the ranking. financing options study with cost-benefit analysis mineral market intelligence expert minecofin, bnr, banks, dfis (p)">
+<tr class="act-row" data-ws="WS4" data-search="a4.5 financing options study mining or sector fund, trade finance backed by registered contracts and verified assays, partial credit guarantee, warehouse receipt financing, equipment leasing, locally sourced offtake prefinancing for each option: cost, benefit, prerequisite, and which mapped risk it addresses rank the options against what the financial institutions said they need only now, with risks mapped, priced, mitigated and monitored, does it make sense to design instruments. each option is assessed on cost, benefit, prerequisite and which mapped risk it addresses, and the whole set is ranked against what the financial institutions said they needed rather than against what would be interesting to build. an instrument that does not answer a stated lender requirement does not survive the ranking. financing options study with cost-benefit analysis mineral market intelligence expert minecofin, bnr, banks, dfis (p)">
   <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
-  <td class="c-ref">A3.5</td>
+  <td class="c-ref">A4.5</td>
   <td class="c-act"><div class="act-title">Financing options study</div>
     <ul class="act-subs"><li>Mining or sector fund, trade finance backed by registered contracts and verified assays, partial credit guarantee, warehouse receipt financing, equipment leasing, locally sourced offtake prefinancing</li><li>For each option: cost, benefit, prerequisite, and which mapped risk it addresses</li><li>Rank the options against what the financial institutions said they need</li></ul></td>
   <td>Financing options study with cost-benefit analysis</td>
@@ -566,9 +697,9 @@
   <td class="c-num">01 Feb 2027 (D+153)</td>
   <td class="c-num c-due">30 Apr 2027 (D+241)</td>
   <td class="c-num">89 days (~3 months)</td>
-  <td class="c-num">A3.3, A3.4</td>
+  <td class="c-num">A4.3, A4.4</td>
 </tr>
-<tr class="detail-row" data-ws="WS3"><td colspan="10"><div class="detail-inner">
+<tr class="detail-row" data-ws="WS4"><td colspan="10"><div class="detail-inner">
   <div class="detail-lab">What this activity consists in</div>
   <p>Only now, with risks mapped, priced, mitigated and monitored, does it make sense to design instruments. Each option is assessed on cost, benefit, prerequisite and which mapped risk it addresses, and the whole set is ranked against what the financial institutions said they needed rather than against what would be interesting to build. An instrument that does not answer a stated lender requirement does not survive the ranking.</p>
   <div class="detail-kv">
@@ -578,12 +709,12 @@
     <div><span>Starts</span><b>01 Feb 2027 (D+153)</b></div>
     <div><span>Ends</span><b>30 Apr 2027 (D+241)</b></div>
     <div><span>Duration</span><b>89 days (~3 months)</b></div>
-    <div><span>Depends on</span><b>A3.3, A3.4</b></div>
+    <div><span>Depends on</span><b>A4.3, A4.4</b></div>
   </div>
 </div></td></tr>
-<tr class="act-row" data-ws="WS3" data-search="a3.6 concept note and roadmap for the retained financing mechanism select the mechanism with senior management produce the concept note, governance model and implementation roadmap submit to the board committee and to minecofin the end point of the workstream: one mechanism selected with senior management, described in a concept note with its governance model and an implementation roadmap, and submitted to the board committee and minecofin. by this stage every claim in the note is traceable to the risk map, the model and the recorded lender requirements, which is what distinguishes a fundable proposal from an aspiration. financing concept note and roadmap submitted mineral market intelligence expert, with the ceo board committee, minecofin (p)">
+<tr class="act-row" data-ws="WS4" data-search="a4.6 concept note and roadmap for the retained financing mechanism select the mechanism with senior management produce the concept note, governance model and implementation roadmap submit to the board committee and to minecofin the end point of the workstream: one mechanism selected with senior management, described in a concept note with its governance model and an implementation roadmap, and submitted to the board committee and minecofin. by this stage every claim in the note is traceable to the risk map, the model and the recorded lender requirements, which is what distinguishes a fundable proposal from an aspiration. financing concept note and roadmap submitted mineral market intelligence expert, with the ceo board committee, minecofin (p)">
   <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
-  <td class="c-ref">A3.6</td>
+  <td class="c-ref">A4.6</td>
   <td class="c-act"><div class="act-title">Concept note and roadmap for the retained financing mechanism</div>
     <ul class="act-subs"><li>Select the mechanism with Senior Management</li><li>Produce the concept note, governance model and implementation roadmap</li><li>Submit to the Board committee and to MINECOFIN</li></ul></td>
   <td>Financing concept note and roadmap submitted</td>
@@ -592,9 +723,9 @@
   <td class="c-num">01 May 2027 (D+242)</td>
   <td class="c-num c-due">31 May 2027 (D+272)</td>
   <td class="c-num">31 days (~1 month)</td>
-  <td class="c-num">A3.5</td>
+  <td class="c-num">A4.5</td>
 </tr>
-<tr class="detail-row" data-ws="WS3"><td colspan="10"><div class="detail-inner">
+<tr class="detail-row" data-ws="WS4"><td colspan="10"><div class="detail-inner">
   <div class="detail-lab">What this activity consists in</div>
   <p>The end point of the workstream: one mechanism selected with Senior Management, described in a concept note with its governance model and an implementation roadmap, and submitted to the Board committee and MINECOFIN. By this stage every claim in the note is traceable to the risk map, the model and the recorded lender requirements, which is what distinguishes a fundable proposal from an aspiration.</p>
   <div class="detail-kv">
@@ -604,13 +735,13 @@
     <div><span>Starts</span><b>01 May 2027 (D+242)</b></div>
     <div><span>Ends</span><b>31 May 2027 (D+272)</b></div>
     <div><span>Duration</span><b>31 days (~1 month)</b></div>
-    <div><span>Depends on</span><b>A3.5</b></div>
+    <div><span>Depends on</span><b>A4.5</b></div>
   </div>
-</div></td></tr><tr class="ws-row" data-ws="WS4"><td colspan="10" style="background:#5B2C6F">
-    <strong>WS4</strong> &nbsp; Prices predictability for processing-plant investors &nbsp; <span style="opacity:.75">(01 Nov 2026 to 31 May 2027, 212 days (~7 months))</span></td></tr>
-<tr class="act-row" data-ws="WS4" data-search="a4.1 value-chain price and cost mapping for cassiterite, coltan and wolframite build the cost taxonomy and data dictionary from mine gate to final consumer: extraction, transport, processing, assay, export, freight, insurance, treatment and refining charges, levies, taxes, financing cost, trading margin collect the baseline from the signed contracts, invoices and assay reports rmb already holds, and from platform submissions benchmark against public market references; paid data subscriptions are not assumed, since no budget line exists an investor asking for price predictability is really asking whether the economics can be foreseen, and that cannot be answered without knowing what the value chain actually costs. this activity builds the cost taxonomy and data dictionary from mine gate to final consumer and populates it from material rmb already holds: signed contracts, invoices and assay reports, supplemented by platform submissions. public market references are used for benchmarking; paid data subscriptions are not assumed, because no budget line exists. value-chain cost map and data dictionary mineral market intelligence expert extraction and inspection division, trading and processing companies">
+</div></td></tr><tr class="ws-row" data-ws="WS5"><td colspan="10" style="background:#5B2C6F">
+    <strong>WS5</strong> &nbsp; Prices predictability for processing-plant investors &nbsp; <span style="opacity:.75">(01 Nov 2026 to 31 May 2027, 212 days (~7 months))</span></td></tr>
+<tr class="act-row" data-ws="WS5" data-search="a5.1 value-chain price and cost mapping for cassiterite, coltan and wolframite build the cost taxonomy and data dictionary from mine gate to final consumer: extraction, transport, processing, assay, export, freight, insurance, treatment and refining charges, levies, taxes, financing cost, trading margin collect the baseline from the signed contracts, invoices and assay reports rmb already holds, and from platform submissions benchmark against public market references; paid data subscriptions are not assumed, since no budget line exists an investor asking for price predictability is really asking whether the economics can be foreseen, and that cannot be answered without knowing what the value chain actually costs. this activity builds the cost taxonomy and data dictionary from mine gate to final consumer and populates it from material rmb already holds: signed contracts, invoices and assay reports, supplemented by platform submissions. public market references are used for benchmarking; paid data subscriptions are not assumed, because no budget line exists. value-chain cost map and data dictionary mineral market intelligence expert extraction and inspection division, trading and processing companies">
   <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
-  <td class="c-ref">A4.1</td>
+  <td class="c-ref">A5.1</td>
   <td class="c-act"><div class="act-title">Value-chain price and cost mapping for cassiterite, coltan and wolframite</div>
     <ul class="act-subs"><li>Build the cost taxonomy and data dictionary from mine gate to final consumer: extraction, transport, processing, assay, export, freight, insurance, treatment and refining charges, levies, taxes, financing cost, trading margin</li><li>Collect the baseline from the signed contracts, invoices and assay reports RMB already holds, and from platform submissions</li><li>Benchmark against public market references; paid data subscriptions are not assumed, since no budget line exists</li></ul></td>
   <td>Value-chain cost map and data dictionary</td>
@@ -621,7 +752,7 @@
   <td class="c-num">61 days (~2 months)</td>
   <td class="c-num">none</td>
 </tr>
-<tr class="detail-row" data-ws="WS4"><td colspan="10"><div class="detail-inner">
+<tr class="detail-row" data-ws="WS5"><td colspan="10"><div class="detail-inner">
   <div class="detail-lab">What this activity consists in</div>
   <p>An investor asking for price predictability is really asking whether the economics can be foreseen, and that cannot be answered without knowing what the value chain actually costs. This activity builds the cost taxonomy and data dictionary from mine gate to final consumer and populates it from material RMB already holds: signed contracts, invoices and assay reports, supplemented by platform submissions. Public market references are used for benchmarking; paid data subscriptions are not assumed, because no budget line exists.</p>
   <div class="detail-kv">
@@ -634,9 +765,9 @@
     <div><span>Depends on</span><b>none</b></div>
   </div>
 </div></td></tr>
-<tr class="act-row" data-ws="WS4" data-search="a4.2 classification of components into controllable and non-controllable apply explicit criteria: does a legal lever exist, does rmb hold the data, can rmb enforce it quantify the weight of each category in the final realised value for non-controllable components, identify the available indirect levers the analytical core of the workstream, and the honest answer to the board's question. some cost and price components rwanda can act on directly, through regulation, published deductions or contract rules. others (the reference price, freight, exchange rates) it cannot, and pretending otherwise would mislead investors. sorting the components on stated criteria (does a legal lever exist, does rmb hold the data, can rmb enforce it) and quantifying how much of final realised value each category represents turns a debate into a measurement. classification matrix with quantified weights mineral market intelligence expert extraction and inspection division">
+<tr class="act-row" data-ws="WS5" data-search="a5.2 classification of components into controllable and non-controllable apply explicit criteria: does a legal lever exist, does rmb hold the data, can rmb enforce it quantify the weight of each category in the final realised value for non-controllable components, identify the available indirect levers the analytical core of the workstream, and the honest answer to the board's question. some cost and price components rwanda can act on directly, through regulation, published deductions or contract rules. others (the reference price, freight, exchange rates) it cannot, and pretending otherwise would mislead investors. sorting the components on stated criteria (does a legal lever exist, does rmb hold the data, can rmb enforce it) and quantifying how much of final realised value each category represents turns a debate into a measurement. classification matrix with quantified weights mineral market intelligence expert extraction and inspection division">
   <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
-  <td class="c-ref">A4.2</td>
+  <td class="c-ref">A5.2</td>
   <td class="c-act"><div class="act-title">Classification of components into controllable and non-controllable</div>
     <ul class="act-subs"><li>Apply explicit criteria: does a legal lever exist, does RMB hold the data, can RMB enforce it</li><li>Quantify the weight of each category in the final realised value</li><li>For non-controllable components, identify the available indirect levers</li></ul></td>
   <td>Classification matrix with quantified weights</td>
@@ -645,9 +776,9 @@
   <td class="c-num">04 Jan 2027 (D+125)</td>
   <td class="c-num c-due">31 Jan 2027 (D+152)</td>
   <td class="c-num">28 days</td>
-  <td class="c-num">A4.1</td>
+  <td class="c-num">A5.1</td>
 </tr>
-<tr class="detail-row" data-ws="WS4"><td colspan="10"><div class="detail-inner">
+<tr class="detail-row" data-ws="WS5"><td colspan="10"><div class="detail-inner">
   <div class="detail-lab">What this activity consists in</div>
   <p>The analytical core of the workstream, and the honest answer to the Board's question. Some cost and price components Rwanda can act on directly, through regulation, published deductions or contract rules. Others (the reference price, freight, exchange rates) it cannot, and pretending otherwise would mislead investors. Sorting the components on stated criteria (does a legal lever exist, does RMB hold the data, can RMB enforce it) and quantifying how much of final realised value each category represents turns a debate into a measurement.</p>
   <div class="detail-kv">
@@ -657,12 +788,12 @@
     <div><span>Starts</span><b>04 Jan 2027 (D+125)</b></div>
     <div><span>Ends</span><b>31 Jan 2027 (D+152)</b></div>
     <div><span>Duration</span><b>28 days</b></div>
-    <div><span>Depends on</span><b>A4.1</b></div>
+    <div><span>Depends on</span><b>A5.1</b></div>
   </div>
 </div></td></tr>
-<tr class="act-row" data-ws="WS4" data-search="a4.3 design of direct price-influencing instruments quarterly rmb-fixed deduction communiqué, building on the mechanism already drafted in the trading, pricing and value-determination regulation published reference-price methodology, and minimum contract content with a floor-price clause itemised deduction rules, so that no single bundled treatment-charge line is accepted for the components rwanda controls, the instruments largely exist in draft already and need finishing rather than inventing: the quarterly rmb-fixed deduction communiqué designed in the trading, pricing and value-determination regulation, a published reference-price methodology, minimum contract content with a floor-price clause, and itemised deduction rules so that no single bundled treatment-charge line is accepted. together these give an investor something a volatile market cannot take away: certainty about the deductions applied on rwandan soil. instrument design note mineral market intelligence expert legal (p), rra and minecofin for tax-linked items (p)">
+<tr class="act-row" data-ws="WS5" data-search="a5.3 design of direct price-influencing instruments quarterly rmb-fixed deduction communiqué, building on the mechanism already drafted in the trading, pricing and value-determination regulation published reference-price methodology, and minimum contract content with a floor-price clause itemised deduction rules, so that no single bundled treatment-charge line is accepted for the components rwanda controls, the instruments largely exist in draft already and need finishing rather than inventing: the quarterly rmb-fixed deduction communiqué designed in the trading, pricing and value-determination regulation, a published reference-price methodology, minimum contract content with a floor-price clause, and itemised deduction rules so that no single bundled treatment-charge line is accepted. together these give an investor something a volatile market cannot take away: certainty about the deductions applied on rwandan soil. instrument design note mineral market intelligence expert legal (p), rra and minecofin for tax-linked items (p)">
   <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
-  <td class="c-ref">A4.3</td>
+  <td class="c-ref">A5.3</td>
   <td class="c-act"><div class="act-title">Design of direct price-influencing instruments</div>
     <ul class="act-subs"><li>Quarterly RMB-fixed deduction communiqué, building on the mechanism already drafted in the trading, pricing and value-determination regulation</li><li>Published reference-price methodology, and minimum contract content with a floor-price clause</li><li>Itemised deduction rules, so that no single bundled treatment-charge line is accepted</li></ul></td>
   <td>Instrument design note</td>
@@ -671,9 +802,9 @@
   <td class="c-num">01 Feb 2027 (D+153)</td>
   <td class="c-num c-due">28 Feb 2027 (D+180)</td>
   <td class="c-num">28 days</td>
-  <td class="c-num">A4.2</td>
+  <td class="c-num">A5.2</td>
 </tr>
-<tr class="detail-row" data-ws="WS4"><td colspan="10"><div class="detail-inner">
+<tr class="detail-row" data-ws="WS5"><td colspan="10"><div class="detail-inner">
   <div class="detail-lab">What this activity consists in</div>
   <p>For the components Rwanda controls, the instruments largely exist in draft already and need finishing rather than inventing: the quarterly RMB-fixed deduction communiqué designed in the trading, pricing and value-determination regulation, a published reference-price methodology, minimum contract content with a floor-price clause, and itemised deduction rules so that no single bundled treatment-charge line is accepted. Together these give an investor something a volatile market cannot take away: certainty about the deductions applied on Rwandan soil.</p>
   <div class="detail-kv">
@@ -683,12 +814,12 @@
     <div><span>Starts</span><b>01 Feb 2027 (D+153)</b></div>
     <div><span>Ends</span><b>28 Feb 2027 (D+180)</b></div>
     <div><span>Duration</span><b>28 days</b></div>
-    <div><span>Depends on</span><b>A4.2</b></div>
+    <div><span>Depends on</span><b>A5.2</b></div>
   </div>
 </div></td></tr>
-<tr class="act-row" data-ws="WS4" data-search="a4.4 feasibility assessment of indirect instruments medium and long-term offtake and tolling contracts, index-linked pricing formulas with floors and collars hedging through the lme or a broker: legal, accounting, capacity and margin requirements price-smoothing arrangements, and who bears the basis risk for components outside rwanda's control, the question is which indirect instruments are realistically available and what each one demands. medium and long-term offtake and tolling contracts, index-linked formulas with floors and collars, hedging through the lme or a broker, and price-smoothing arrangements each carry legal, accounting, capacity and margin requirements that are easy to underestimate. the assessment is deliberately sceptical and asks, for every instrument, who ends up bearing the basis risk. feasibility note with a ranked recommendation mineral market intelligence expert bnr and minecofin consultation (p), banks">
+<tr class="act-row" data-ws="WS5" data-search="a5.4 feasibility assessment of indirect instruments medium and long-term offtake and tolling contracts, index-linked pricing formulas with floors and collars hedging through the lme or a broker: legal, accounting, capacity and margin requirements price-smoothing arrangements, and who bears the basis risk for components outside rwanda's control, the question is which indirect instruments are realistically available and what each one demands. medium and long-term offtake and tolling contracts, index-linked formulas with floors and collars, hedging through the lme or a broker, and price-smoothing arrangements each carry legal, accounting, capacity and margin requirements that are easy to underestimate. the assessment is deliberately sceptical and asks, for every instrument, who ends up bearing the basis risk. feasibility note with a ranked recommendation mineral market intelligence expert bnr and minecofin consultation (p), banks">
   <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
-  <td class="c-ref">A4.4</td>
+  <td class="c-ref">A5.4</td>
   <td class="c-act"><div class="act-title">Feasibility assessment of indirect instruments</div>
     <ul class="act-subs"><li>Medium and long-term offtake and tolling contracts, index-linked pricing formulas with floors and collars</li><li>Hedging through the LME or a broker: legal, accounting, capacity and margin requirements</li><li>Price-smoothing arrangements, and who bears the basis risk</li></ul></td>
   <td>Feasibility note with a ranked recommendation</td>
@@ -697,9 +828,9 @@
   <td class="c-num">01 Feb 2027 (D+153)</td>
   <td class="c-num c-due">31 Mar 2027 (D+211)</td>
   <td class="c-num">59 days (~2 months)</td>
-  <td class="c-num">A4.2</td>
+  <td class="c-num">A5.2</td>
 </tr>
-<tr class="detail-row" data-ws="WS4"><td colspan="10"><div class="detail-inner">
+<tr class="detail-row" data-ws="WS5"><td colspan="10"><div class="detail-inner">
   <div class="detail-lab">What this activity consists in</div>
   <p>For components outside Rwanda's control, the question is which indirect instruments are realistically available and what each one demands. Medium and long-term offtake and tolling contracts, index-linked formulas with floors and collars, hedging through the LME or a broker, and price-smoothing arrangements each carry legal, accounting, capacity and margin requirements that are easy to underestimate. The assessment is deliberately sceptical and asks, for every instrument, who ends up bearing the basis risk.</p>
   <div class="detail-kv">
@@ -709,23 +840,23 @@
     <div><span>Starts</span><b>01 Feb 2027 (D+153)</b></div>
     <div><span>Ends</span><b>31 Mar 2027 (D+211)</b></div>
     <div><span>Duration</span><b>59 days (~2 months)</b></div>
-    <div><span>Depends on</span><b>A4.2</b></div>
+    <div><span>Depends on</span><b>A5.2</b></div>
   </div>
 </div></td></tr>
-<tr class="act-row" data-ws="WS4" data-search="a4.5 proposal to senior management and to the board committee consolidate a4.2 to a4.4 into a single decision paper management review session, then presentation to the board committee for validation before implementation the classification, the direct instruments and the indirect assessment are consolidated into a single decision paper, reviewed by management, then presented to the board committee for validation before anything is implemented. nothing in this workstream is put to the market until that decision is recorded. decision paper, recorded decision mineral market intelligence expert ceo, board committee chair">
+<tr class="act-row" data-ws="WS5" data-search="a5.5 proposal to senior management and to the board committee consolidate a5.2 to a5.4 into a single decision paper management review session, then presentation to the board committee for validation before implementation the classification, the direct instruments and the indirect assessment are consolidated into a single decision paper, reviewed by management, then presented to the board committee for validation before anything is implemented. nothing in this workstream is put to the market until that decision is recorded. decision paper, recorded decision mineral market intelligence expert ceo, board committee chair">
   <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
-  <td class="c-ref">A4.5</td>
+  <td class="c-ref">A5.5</td>
   <td class="c-act"><div class="act-title">Proposal to Senior Management and to the Board committee</div>
-    <ul class="act-subs"><li>Consolidate A4.2 to A4.4 into a single decision paper</li><li>Management review session, then presentation to the Board committee for validation before implementation</li></ul></td>
+    <ul class="act-subs"><li>Consolidate A5.2 to A5.4 into a single decision paper</li><li>Management review session, then presentation to the Board committee for validation before implementation</li></ul></td>
   <td>Decision paper, recorded decision</td>
   <td>Mineral market intelligence expert</td>
   <td>CEO, Board committee chair</td>
   <td class="c-num">01 Apr 2027 (D+212)</td>
   <td class="c-num c-due">30 Apr 2027 (D+241)</td>
   <td class="c-num">30 days</td>
-  <td class="c-num">A4.3, A4.4</td>
+  <td class="c-num">A5.3, A5.4</td>
 </tr>
-<tr class="detail-row" data-ws="WS4"><td colspan="10"><div class="detail-inner">
+<tr class="detail-row" data-ws="WS5"><td colspan="10"><div class="detail-inner">
   <div class="detail-lab">What this activity consists in</div>
   <p>The classification, the direct instruments and the indirect assessment are consolidated into a single decision paper, reviewed by Management, then presented to the Board committee for validation before anything is implemented. Nothing in this workstream is put to the market until that decision is recorded.</p>
   <div class="detail-kv">
@@ -735,12 +866,12 @@
     <div><span>Starts</span><b>01 Apr 2027 (D+212)</b></div>
     <div><span>Ends</span><b>30 Apr 2027 (D+241)</b></div>
     <div><span>Duration</span><b>30 days</b></div>
-    <div><span>Depends on</span><b>A4.3, A4.4</b></div>
+    <div><span>Depends on</span><b>A5.3, A5.4</b></div>
   </div>
 </div></td></tr>
-<tr class="act-row" data-ws="WS4" data-search="a4.6 price and cost monitoring dashboard generalise the existing cassiterite pricing model to coltan and wolframite feed it automatically from the reporting platform and from public market references alert when a declared price or deduction falls outside the reference band predictability has to be maintained, not announced once. the existing cassiterite pricing model is generalised to coltan and wolframite, fed automatically from the reporting platform and from public market references, and set to raise an alert when a declared price or deduction falls outside the reference band. the alert is the point: it converts monitoring from a periodic study into a continuous control. monitoring dashboard, demonstration release mineral market intelligence expert head of it team">
+<tr class="act-row" data-ws="WS5" data-search="a5.6 price and cost monitoring dashboard generalise the existing cassiterite pricing model to coltan and wolframite feed it automatically from the reporting platform and from public market references alert when a declared price or deduction falls outside the reference band predictability has to be maintained, not announced once. the existing cassiterite pricing model is generalised to coltan and wolframite, fed automatically from the reporting platform and from public market references, and set to raise an alert when a declared price or deduction falls outside the reference band. the alert is the point: it converts monitoring from a periodic study into a continuous control. monitoring dashboard, demonstration release mineral market intelligence expert head of it team">
   <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
-  <td class="c-ref">A4.6</td>
+  <td class="c-ref">A5.6</td>
   <td class="c-act"><div class="act-title">Price and cost monitoring dashboard</div>
     <ul class="act-subs"><li>Generalise the existing cassiterite pricing model to coltan and wolframite</li><li>Feed it automatically from the reporting platform and from public market references</li><li>Alert when a declared price or deduction falls outside the reference band</li></ul></td>
   <td>Monitoring dashboard, demonstration release</td>
@@ -749,9 +880,9 @@
   <td class="c-num">01 Mar 2027 (D+181)</td>
   <td class="c-num c-due">31 May 2027 (D+272)</td>
   <td class="c-num">92 days (~3 months)</td>
-  <td class="c-num">A4.2</td>
+  <td class="c-num">A5.2</td>
 </tr>
-<tr class="detail-row" data-ws="WS4"><td colspan="10"><div class="detail-inner">
+<tr class="detail-row" data-ws="WS5"><td colspan="10"><div class="detail-inner">
   <div class="detail-lab">What this activity consists in</div>
   <p>Predictability has to be maintained, not announced once. The existing cassiterite pricing model is generalised to coltan and wolframite, fed automatically from the reporting platform and from public market references, and set to raise an alert when a declared price or deduction falls outside the reference band. The alert is the point: it converts monitoring from a periodic study into a continuous control.</p>
   <div class="detail-kv">
@@ -761,12 +892,12 @@
     <div><span>Starts</span><b>01 Mar 2027 (D+181)</b></div>
     <div><span>Ends</span><b>31 May 2027 (D+272)</b></div>
     <div><span>Duration</span><b>92 days (~3 months)</b></div>
-    <div><span>Depends on</span><b>A4.2</b></div>
+    <div><span>Depends on</span><b>A5.2</b></div>
   </div>
 </div></td></tr>
-<tr class="act-row" data-ws="WS4" data-search="a4.7 first quarterly price and cost outlook for investors define the publication format and the confidentiality boundary publish the first issue, then one per quarter collect investor feedback and refine the visible product of the workstream, and the thing an investor can actually hold. it publishes what rwanda controls and at what level, what it does not, and how the two interacted over the quarter. the confidentiality boundary is defined before the first issue, so that the publication can be sustained without renegotiating what may be said each time. published quarterly outlook note mineral market intelligence expert communication, ceo's office">
+<tr class="act-row" data-ws="WS5" data-search="a5.7 first quarterly price and cost outlook for investors define the publication format and the confidentiality boundary publish the first issue, then one per quarter collect investor feedback and refine the visible product of the workstream, and the thing an investor can actually hold. it publishes what rwanda controls and at what level, what it does not, and how the two interacted over the quarter. the confidentiality boundary is defined before the first issue, so that the publication can be sustained without renegotiating what may be said each time. published quarterly outlook note mineral market intelligence expert communication, ceo's office">
   <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
-  <td class="c-ref">A4.7</td>
+  <td class="c-ref">A5.7</td>
   <td class="c-act"><div class="act-title">First quarterly price and cost outlook for investors</div>
     <ul class="act-subs"><li>Define the publication format and the confidentiality boundary</li><li>Publish the first issue, then one per quarter</li><li>Collect investor feedback and refine</li></ul></td>
   <td>Published quarterly outlook note</td>
@@ -775,9 +906,9 @@
   <td class="c-num">01 May 2027 (D+242)</td>
   <td class="c-num c-due">31 May 2027, then quarterly</td>
   <td class="c-num">31 days (~1 month)</td>
-  <td class="c-num">A4.6</td>
+  <td class="c-num">A5.6</td>
 </tr>
-<tr class="detail-row" data-ws="WS4"><td colspan="10"><div class="detail-inner">
+<tr class="detail-row" data-ws="WS5"><td colspan="10"><div class="detail-inner">
   <div class="detail-lab">What this activity consists in</div>
   <p>The visible product of the workstream, and the thing an investor can actually hold. It publishes what Rwanda controls and at what level, what it does not, and how the two interacted over the quarter. The confidentiality boundary is defined before the first issue, so that the publication can be sustained without renegotiating what may be said each time.</p>
   <div class="detail-kv">
@@ -787,13 +918,13 @@
     <div><span>Starts</span><b>01 May 2027 (D+242)</b></div>
     <div><span>Ends</span><b>31 May 2027 (D+272)</b></div>
     <div><span>Duration</span><b>31 days (~1 month)</b></div>
-    <div><span>Depends on</span><b>A4.6</b></div>
+    <div><span>Depends on</span><b>A5.6</b></div>
   </div>
-</div></td></tr><tr class="ws-row" data-ws="WS5"><td colspan="10" style="background:#6B7B6F">
-    <strong>WS5</strong> &nbsp; Programme mobilisation and governance &nbsp; <span style="opacity:.75">(05 Sep 2026 to 30 Nov 2026, 87 days (~3 months))</span></td></tr>
-<tr class="act-row" data-ws="WS5" data-search="a5.1 review and validation of this action plan circulate to senior management and to the board committee chair hold one review session and collect written comments incorporate comments and issue the approved version the plan is circulated to senior management and to the board committee chair, reviewed in one session, and reissued with comments incorporated. it is deliberately short: every week spent validating the plan is a week removed from the ten available before the december board meeting. approved action plan mineral market intelligence expert advisor to the ceo (p)">
+</div></td></tr><tr class="ws-row" data-ws="WS6"><td colspan="10" style="background:#6B7B6F">
+    <strong>WS6</strong> &nbsp; Programme mobilisation and governance &nbsp; <span style="opacity:.75">(05 Sep 2026 to 30 Nov 2026, 87 days (~3 months))</span></td></tr>
+<tr class="act-row" data-ws="WS6" data-search="a6.1 review and validation of this action plan circulate to senior management and to the board committee chair hold one review session and collect written comments incorporate comments and issue the approved version the plan is circulated to senior management and to the board committee chair, reviewed in one session, and reissued with comments incorporated. it is deliberately short: every week spent validating the plan is a week removed from the ten available before the december board meeting. approved action plan mineral market intelligence expert advisor to the ceo (p)">
   <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
-  <td class="c-ref">A5.1</td>
+  <td class="c-ref">A6.1</td>
   <td class="c-act"><div class="act-title">Review and validation of this action plan</div>
     <ul class="act-subs"><li>Circulate to Senior Management and to the Board committee chair</li><li>Hold one review session and collect written comments</li><li>Incorporate comments and issue the approved version</li></ul></td>
   <td>Approved action plan</td>
@@ -804,7 +935,7 @@
   <td class="c-num">15 days</td>
   <td class="c-num">none</td>
 </tr>
-<tr class="detail-row" data-ws="WS5"><td colspan="10"><div class="detail-inner">
+<tr class="detail-row" data-ws="WS6"><td colspan="10"><div class="detail-inner">
   <div class="detail-lab">What this activity consists in</div>
   <p>The plan is circulated to Senior Management and to the Board committee chair, reviewed in one session, and reissued with comments incorporated. It is deliberately short: every week spent validating the plan is a week removed from the ten available before the December Board meeting.</p>
   <div class="detail-kv">
@@ -817,9 +948,9 @@
     <div><span>Depends on</span><b>none</b></div>
   </div>
 </div></td></tr>
-<tr class="act-row" data-ws="WS5" data-search="a5.2 internal delivery team and named focal points designate a focal point per division: cadastre and digital information, extraction and inspection, exploration, it, legal define time allocation and substitution arrangements issue the service note a focal point per division, with time allocation and substitution arrangements defined rather than assumed, issued as a service note so that the commitment is on the record. without this the plan depends entirely on one person's availability, which is the largest single risk to delivery. service note designating the delivery team chief executive officer (p) heads of department and division managers">
+<tr class="act-row" data-ws="WS6" data-search="a6.2 internal delivery team and named focal points designate a focal point per division: cadastre and digital information, extraction and inspection, exploration, it, legal define time allocation and substitution arrangements issue the service note a focal point per division, with time allocation and substitution arrangements defined rather than assumed, issued as a service note so that the commitment is on the record. without this the plan depends entirely on one person's availability, which is the largest single risk to delivery. service note designating the delivery team chief executive officer (p) heads of department and division managers">
   <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
-  <td class="c-ref">A5.2</td>
+  <td class="c-ref">A6.2</td>
   <td class="c-act"><div class="act-title">Internal delivery team and named focal points</div>
     <ul class="act-subs"><li>Designate a focal point per division: cadastre and digital information, extraction and inspection, exploration, IT, legal</li><li>Define time allocation and substitution arrangements</li><li>Issue the service note</li></ul></td>
   <td>Service note designating the delivery team</td>
@@ -828,9 +959,9 @@
   <td class="c-num">08 Sep 2026 (D+7)</td>
   <td class="c-num c-due">30 Sep 2026 (D+29)</td>
   <td class="c-num">23 days</td>
-  <td class="c-num">A5.1</td>
+  <td class="c-num">A6.1</td>
 </tr>
-<tr class="detail-row" data-ws="WS5"><td colspan="10"><div class="detail-inner">
+<tr class="detail-row" data-ws="WS6"><td colspan="10"><div class="detail-inner">
   <div class="detail-lab">What this activity consists in</div>
   <p>A focal point per division, with time allocation and substitution arrangements defined rather than assumed, issued as a service note so that the commitment is on the record. Without this the plan depends entirely on one person's availability, which is the largest single risk to delivery.</p>
   <div class="detail-kv">
@@ -840,12 +971,12 @@
     <div><span>Starts</span><b>08 Sep 2026 (D+7)</b></div>
     <div><span>Ends</span><b>30 Sep 2026 (D+29)</b></div>
     <div><span>Duration</span><b>23 days</b></div>
-    <div><span>Depends on</span><b>A5.1</b></div>
+    <div><span>Depends on</span><b>A6.1</b></div>
   </div>
 </div></td></tr>
-<tr class="act-row" data-ws="WS5" data-search="a5.3 programme dashboard, reporting calendar and repository milestone tracker with owner, due date and status reporting calendar published: weekly, monthly, quarterly single shared repository for all programme documents a milestone tracker with owner, due date and status; a published reporting calendar; and one shared repository for every programme document. small, unglamorous, and the reason the monthly and quarterly reports later take hours rather than days to produce. live programme dashboard and calendar mineral market intelligence expert head of it team">
+<tr class="act-row" data-ws="WS6" data-search="a6.3 programme dashboard, reporting calendar and repository milestone tracker with owner, due date and status reporting calendar published: weekly, monthly, quarterly single shared repository for all programme documents a milestone tracker with owner, due date and status; a published reporting calendar; and one shared repository for every programme document. small, unglamorous, and the reason the monthly and quarterly reports later take hours rather than days to produce. live programme dashboard and calendar mineral market intelligence expert head of it team">
   <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
-  <td class="c-ref">A5.3</td>
+  <td class="c-ref">A6.3</td>
   <td class="c-act"><div class="act-title">Programme dashboard, reporting calendar and repository</div>
     <ul class="act-subs"><li>Milestone tracker with owner, due date and status</li><li>Reporting calendar published: weekly, monthly, quarterly</li><li>Single shared repository for all programme documents</li></ul></td>
   <td>Live programme dashboard and calendar</td>
@@ -854,9 +985,9 @@
   <td class="c-num">01 Oct 2026 (D+30)</td>
   <td class="c-num c-due">31 Oct 2026 (D+60)</td>
   <td class="c-num">31 days (~1 month)</td>
-  <td class="c-num">A5.2</td>
+  <td class="c-num">A6.2</td>
 </tr>
-<tr class="detail-row" data-ws="WS5"><td colspan="10"><div class="detail-inner">
+<tr class="detail-row" data-ws="WS6"><td colspan="10"><div class="detail-inner">
   <div class="detail-lab">What this activity consists in</div>
   <p>A milestone tracker with owner, due date and status; a published reporting calendar; and one shared repository for every programme document. Small, unglamorous, and the reason the monthly and quarterly reports later take hours rather than days to produce.</p>
   <div class="detail-kv">
@@ -866,12 +997,12 @@
     <div><span>Starts</span><b>01 Oct 2026 (D+30)</b></div>
     <div><span>Ends</span><b>31 Oct 2026 (D+60)</b></div>
     <div><span>Duration</span><b>31 days (~1 month)</b></div>
-    <div><span>Depends on</span><b>A5.2</b></div>
+    <div><span>Depends on</span><b>A6.2</b></div>
   </div>
 </div></td></tr>
-<tr class="act-row" data-ws="WS5" data-search="a5.4 progress pack for the december 2026 board meeting assemble the flagship demonstrations into a single live session, not a slide narrative prepare the decisions the board is being asked to take, each with its options and consequences dry run with senior management before the meeting the flagship demonstrations are assembled into a single live session rather than a slide narrative, because the whole point is that the board sees the tools running. the decisions the board is being asked to take are prepared in advance, each with its options and consequences, and the session is dry-run with senior management first so that nothing fails in the room. board pack and live demonstration mineral market intelligence expert, with the ceo all delivery-team focal points">
+<tr class="act-row" data-ws="WS6" data-search="a6.4 progress pack for the december 2026 board meeting assemble the flagship demonstrations into a single live session, not a slide narrative prepare the decisions the board is being asked to take, each with its options and consequences dry run with senior management before the meeting the flagship demonstrations are assembled into a single live session rather than a slide narrative, because the whole point is that the board sees the tools running. the decisions the board is being asked to take are prepared in advance, each with its options and consequences, and the session is dry-run with senior management first so that nothing fails in the room. board pack and live demonstration mineral market intelligence expert, with the ceo all delivery-team focal points">
   <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
-  <td class="c-ref">A5.4</td>
+  <td class="c-ref">A6.4</td>
   <td class="c-act"><div class="act-title">Progress pack for the December 2026 Board meeting</div>
     <ul class="act-subs"><li>Assemble the flagship demonstrations into a single live session, not a slide narrative</li><li>Prepare the decisions the Board is being asked to take, each with its options and consequences</li><li>Dry run with Senior Management before the meeting</li></ul></td>
   <td>Board pack and live demonstration</td>
@@ -880,9 +1011,9 @@
   <td class="c-num">01 Nov 2026 (D+61)</td>
   <td class="c-num c-due">30 Nov 2026 (D+90)</td>
   <td class="c-num">30 days</td>
-  <td class="c-num">A1.2, A2.2, A3.2</td>
+  <td class="c-num">A1.2, A2.2, A3.2, A4.2</td>
 </tr>
-<tr class="detail-row" data-ws="WS5"><td colspan="10"><div class="detail-inner">
+<tr class="detail-row" data-ws="WS6"><td colspan="10"><div class="detail-inner">
   <div class="detail-lab">What this activity consists in</div>
   <p>The flagship demonstrations are assembled into a single live session rather than a slide narrative, because the whole point is that the Board sees the tools running. The decisions the Board is being asked to take are prepared in advance, each with its options and consequences, and the session is dry-run with Senior Management first so that nothing fails in the room.</p>
   <div class="detail-kv">
@@ -892,13 +1023,13 @@
     <div><span>Starts</span><b>01 Nov 2026 (D+61)</b></div>
     <div><span>Ends</span><b>30 Nov 2026 (D+90)</b></div>
     <div><span>Duration</span><b>30 days</b></div>
-    <div><span>Depends on</span><b>A1.2, A2.2, A3.2</b></div>
+    <div><span>Depends on</span><b>A1.2, A2.2, A3.2, A4.2</b></div>
   </div>
-</div></td></tr><tr class="ws-row" data-ws="WS6"><td colspan="10" style="background:#8C5A2B">
-    <strong>WS6</strong> &nbsp; Decision-making ecosystem, automation and AI (cross-cutting) &nbsp; <span style="opacity:.75">(15 Sep 2026 to 31 May 2027, 259 days (~9 months))</span></td></tr>
-<tr class="act-row" data-ws="WS6" data-search="a6.1 portable ai prompt and skill library for file conversion and analysis write optimised, tool-agnostic prompts and skill files, stored as markdown, text, json or yaml, that any ai assistant can use cover the conversion of non-spreadsheet records (pdf, scanned or text) into clean excel or csv files the platform can read publish them for download alongside the demonstration platform, with a short usage guide version them, so that a correction reaches every user at once a december board deliverable, and the piece that makes the reporting platform usable by companies whose records are not digital today. the library is a set of optimised, tool-agnostic prompt and skill files, stored as markdown, text, json or yaml, that a company downloads and runs with whatever ai assistant it already has, to turn a pdf, a scan or a text record into a clean excel or csv file the platform can read. rmb hosts nothing and pays nothing; the files are versioned so that a correction reaches every user at once. downloadable prompt and skill library with usage guide mineral market intelligence expert head of it team">
+</div></td></tr><tr class="ws-row" data-ws="WS7"><td colspan="10" style="background:#8C5A2B">
+    <strong>WS7</strong> &nbsp; Decision-making ecosystem, automation and AI (cross-cutting) &nbsp; <span style="opacity:.75">(15 Sep 2026 to 31 May 2027, 259 days (~9 months))</span></td></tr>
+<tr class="act-row" data-ws="WS7" data-search="a7.1 portable ai prompt and skill library for file conversion and analysis write optimised, tool-agnostic prompts and skill files, stored as markdown, text, json or yaml, that any ai assistant can use cover the conversion of non-spreadsheet records (pdf, scanned or text) into clean excel or csv files the platform can read publish them for download alongside the demonstration platform, with a short usage guide version them, so that a correction reaches every user at once a december board deliverable, and the piece that makes the reporting platform usable by companies whose records are not digital today. the library is a set of optimised, tool-agnostic prompt and skill files, stored as markdown, text, json or yaml, that a company downloads and runs with whatever ai assistant it already has, to turn a pdf, a scan or a text record into a clean excel or csv file the platform can read. rmb hosts nothing and pays nothing; the files are versioned so that a correction reaches every user at once. downloadable prompt and skill library with usage guide mineral market intelligence expert head of it team">
   <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
-  <td class="c-ref">A6.1</td>
+  <td class="c-ref">A7.1</td>
   <td class="c-act"><div class="act-title">Portable AI prompt and skill library for file conversion and analysis</div>
     <ul class="act-subs"><li>Write optimised, tool-agnostic prompts and skill files, stored as Markdown, text, JSON or YAML, that any AI assistant can use</li><li>Cover the conversion of non-spreadsheet records (PDF, scanned or text) into clean Excel or CSV files the platform can read</li><li>Publish them for download alongside the demonstration platform, with a short usage guide</li><li>Version them, so that a correction reaches every user at once</li></ul></td>
   <td>Downloadable prompt and skill library with usage guide</td>
@@ -909,7 +1040,7 @@
   <td class="c-num">47 days (~2 months)</td>
   <td class="c-num">none</td>
 </tr>
-<tr class="detail-row" data-ws="WS6"><td colspan="10"><div class="detail-inner">
+<tr class="detail-row" data-ws="WS7"><td colspan="10"><div class="detail-inner">
   <div class="detail-lab">What this activity consists in</div>
   <p>A December Board deliverable, and the piece that makes the reporting platform usable by companies whose records are not digital today. The library is a set of optimised, tool-agnostic prompt and skill files, stored as Markdown, text, JSON or YAML, that a company downloads and runs with whatever AI assistant it already has, to turn a PDF, a scan or a text record into a clean Excel or CSV file the platform can read. RMB hosts nothing and pays nothing; the files are versioned so that a correction reaches every user at once.</p>
   <div class="detail-kv">
@@ -922,9 +1053,9 @@
     <div><span>Depends on</span><b>none</b></div>
   </div>
 </div></td></tr>
-<tr class="act-row" data-ws="WS6" data-search="a6.2 data governance, confidentiality and audit-trail policy a short data-handling note covering the demonstration platform, issued before any company data is uploaded full policy: classification by sensitivity, who may see what, retention, audit trail rules for automated processing and for any use of artificial intelligence a short data-handling note comes first, before any company data reaches the demonstration platform, because issuing it afterwards is worth very little. the full policy follows: classification by sensitivity, who may see what, retention, audit trail, and the rules governing automated processing and any use of artificial intelligence. operators will not report accurately into a system whose disclosure rules they cannot read. demonstration data-handling note, then full policy mineral market intelligence expert, with legal (p) head of it team, ceo's office">
+<tr class="act-row" data-ws="WS7" data-search="a7.2 data governance, confidentiality and audit-trail policy a short data-handling note covering the demonstration platform, issued before any company data is uploaded full policy: classification by sensitivity, who may see what, retention, audit trail rules for automated processing and for any use of artificial intelligence a short data-handling note comes first, before any company data reaches the demonstration platform, because issuing it afterwards is worth very little. the full policy follows: classification by sensitivity, who may see what, retention, audit trail, and the rules governing automated processing and any use of artificial intelligence. operators will not report accurately into a system whose disclosure rules they cannot read. demonstration data-handling note, then full policy mineral market intelligence expert, with legal (p) head of it team, ceo's office">
   <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
-  <td class="c-ref">A6.2</td>
+  <td class="c-ref">A7.2</td>
   <td class="c-act"><div class="act-title">Data governance, confidentiality and audit-trail policy</div>
     <ul class="act-subs"><li>A short data-handling note covering the demonstration platform, issued before any company data is uploaded</li><li>Full policy: classification by sensitivity, who may see what, retention, audit trail</li><li>Rules for automated processing and for any use of artificial intelligence</li></ul></td>
   <td>Demonstration data-handling note, then full policy</td>
@@ -935,7 +1066,7 @@
   <td class="c-num">108 days (~4 months)</td>
   <td class="c-num">none</td>
 </tr>
-<tr class="detail-row" data-ws="WS6"><td colspan="10"><div class="detail-inner">
+<tr class="detail-row" data-ws="WS7"><td colspan="10"><div class="detail-inner">
   <div class="detail-lab">What this activity consists in</div>
   <p>A short data-handling note comes first, before any company data reaches the demonstration platform, because issuing it afterwards is worth very little. The full policy follows: classification by sensitivity, who may see what, retention, audit trail, and the rules governing automated processing and any use of artificial intelligence. Operators will not report accurately into a system whose disclosure rules they cannot read.</p>
   <div class="detail-kv">
@@ -948,9 +1079,9 @@
     <div><span>Depends on</span><b>none</b></div>
   </div>
 </div></td></tr>
-<tr class="act-row" data-ws="WS6" data-search="a6.3 standard analytical products and publication calendar monthly sector dashboard for senior management quarterly pack for the board committee, and a weekly price watch exception alerts issued within 48 hours of detection a monthly sector dashboard for senior management, a quarterly pack for the board committee, a weekly price watch, and exception alerts issued within 48 hours of detection. fixing the catalogue and the calendar early establishes a rhythm the board can rely on, and makes each individual report a routine output rather than a project. product catalogue and first issues in circulation mineral market intelligence expert head of it team">
+<tr class="act-row" data-ws="WS7" data-search="a7.3 standard analytical products and publication calendar monthly sector dashboard for senior management quarterly pack for the board committee, and a weekly price watch exception alerts issued within 48 hours of detection a monthly sector dashboard for senior management, a quarterly pack for the board committee, a weekly price watch, and exception alerts issued within 48 hours of detection. fixing the catalogue and the calendar early establishes a rhythm the board can rely on, and makes each individual report a routine output rather than a project. product catalogue and first issues in circulation mineral market intelligence expert head of it team">
   <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
-  <td class="c-ref">A6.3</td>
+  <td class="c-ref">A7.3</td>
   <td class="c-act"><div class="act-title">Standard analytical products and publication calendar</div>
     <ul class="act-subs"><li>Monthly sector dashboard for Senior Management</li><li>Quarterly pack for the Board committee, and a weekly price watch</li><li>Exception alerts issued within 48 hours of detection</li></ul></td>
   <td>Product catalogue and first issues in circulation</td>
@@ -961,7 +1092,7 @@
   <td class="c-num">30 days</td>
   <td class="c-num">A1.5</td>
 </tr>
-<tr class="detail-row" data-ws="WS6"><td colspan="10"><div class="detail-inner">
+<tr class="detail-row" data-ws="WS7"><td colspan="10"><div class="detail-inner">
   <div class="detail-lab">What this activity consists in</div>
   <p>A monthly sector dashboard for Senior Management, a quarterly pack for the Board committee, a weekly price watch, and exception alerts issued within 48 hours of detection. Fixing the catalogue and the calendar early establishes a rhythm the Board can rely on, and makes each individual report a routine output rather than a project.</p>
   <div class="detail-kv">
@@ -974,9 +1105,9 @@
     <div><span>Depends on</span><b>A1.5</b></div>
   </div>
 </div></td></tr>
-<tr class="act-row" data-ws="WS6" data-search="a6.4 information-flow map and target decision workflow map how sector information currently reaches a decision, and where it stops design the target flow (data, analysis, recommendation, decision, execution, feedback) with a service level for each step define the escalation route for exceptions maps how sector information currently reaches a decision and, more usefully, where it stops. the target flow (data, analysis, recommendation, decision, execution, feedback) is designed with a service level for each step and a named accountable role, plus an escalation route for exceptions. without service levels the workflow is a diagram; with them it is a commitment. decision and information-flow map with service levels mineral market intelligence expert ceo's office, all divisions">
+<tr class="act-row" data-ws="WS7" data-search="a7.4 information-flow map and target decision workflow map how sector information currently reaches a decision, and where it stops design the target flow (data, analysis, recommendation, decision, execution, feedback) with a service level for each step define the escalation route for exceptions maps how sector information currently reaches a decision and, more usefully, where it stops. the target flow (data, analysis, recommendation, decision, execution, feedback) is designed with a service level for each step and a named accountable role, plus an escalation route for exceptions. without service levels the workflow is a diagram; with them it is a commitment. decision and information-flow map with service levels mineral market intelligence expert ceo's office, all divisions">
   <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
-  <td class="c-ref">A6.4</td>
+  <td class="c-ref">A7.4</td>
   <td class="c-act"><div class="act-title">Information-flow map and target decision workflow</div>
     <ul class="act-subs"><li>Map how sector information currently reaches a decision, and where it stops</li><li>Design the target flow (data, analysis, recommendation, decision, execution, feedback) with a service level for each step</li><li>Define the escalation route for exceptions</li></ul></td>
   <td>Decision and information-flow map with service levels</td>
@@ -985,9 +1116,9 @@
   <td class="c-num">01 Nov 2026 (D+61)</td>
   <td class="c-num c-due">31 Dec 2026 (D+121)</td>
   <td class="c-num">61 days (~2 months)</td>
-  <td class="c-num">A5.2</td>
+  <td class="c-num">A6.2</td>
 </tr>
-<tr class="detail-row" data-ws="WS6"><td colspan="10"><div class="detail-inner">
+<tr class="detail-row" data-ws="WS7"><td colspan="10"><div class="detail-inner">
   <div class="detail-lab">What this activity consists in</div>
   <p>Maps how sector information currently reaches a decision and, more usefully, where it stops. The target flow (data, analysis, recommendation, decision, execution, feedback) is designed with a service level for each step and a named accountable role, plus an escalation route for exceptions. Without service levels the workflow is a diagram; with them it is a commitment.</p>
   <div class="detail-kv">
@@ -997,12 +1128,12 @@
     <div><span>Starts</span><b>01 Nov 2026 (D+61)</b></div>
     <div><span>Ends</span><b>31 Dec 2026 (D+121)</b></div>
     <div><span>Duration</span><b>61 days (~2 months)</b></div>
-    <div><span>Depends on</span><b>A5.2</b></div>
+    <div><span>Depends on</span><b>A6.2</b></div>
   </div>
 </div></td></tr>
-<tr class="act-row" data-ws="WS6" data-search="a6.5 automation and artificial-intelligence roadmap rank the use cases by value and feasibility start with deterministic rules, then add document extraction and predictive analytics define the human review required for every use case touching a licence, an assessment or a sanction phased releases, each measured on time saved and errors caught ranks the automation use cases by value and feasibility and sequences them: deterministic rules first, because they are cheap, explainable and defensible before a court or an operator, then document extraction and predictive analytics where rules genuinely cannot do the job. every use case touching a licence, an assessment or a sanction carries a defined human review. each release is measured on time saved and errors caught, and one that cannot show its effect is retired. roadmap and successive releases mineral market intelligence expert, with the head of it team cadastre and digital information division">
+<tr class="act-row" data-ws="WS7" data-search="a7.5 automation and artificial-intelligence roadmap rank the use cases by value and feasibility start with deterministic rules, then add document extraction and predictive analytics define the human review required for every use case touching a licence, an assessment or a sanction phased releases, each measured on time saved and errors caught ranks the automation use cases by value and feasibility and sequences them: deterministic rules first, because they are cheap, explainable and defensible before a court or an operator, then document extraction and predictive analytics where rules genuinely cannot do the job. every use case touching a licence, an assessment or a sanction carries a defined human review. each release is measured on time saved and errors caught, and one that cannot show its effect is retired. roadmap and successive releases mineral market intelligence expert, with the head of it team cadastre and digital information division">
   <td class="ctrl"><button class="xbtn" aria-expanded="false" aria-label="More detail" onclick="rowToggle(this)">+</button></td>
-  <td class="c-ref">A6.5</td>
+  <td class="c-ref">A7.5</td>
   <td class="c-act"><div class="act-title">Automation and artificial-intelligence roadmap</div>
     <ul class="act-subs"><li>Rank the use cases by value and feasibility</li><li>Start with deterministic rules, then add document extraction and predictive analytics</li><li>Define the human review required for every use case touching a licence, an assessment or a sanction</li><li>Phased releases, each measured on time saved and errors caught</li></ul></td>
   <td>Roadmap and successive releases</td>
@@ -1013,7 +1144,7 @@
   <td class="c-num">148 days (~5 months)</td>
   <td class="c-num">A1.5</td>
 </tr>
-<tr class="detail-row" data-ws="WS6"><td colspan="10"><div class="detail-inner">
+<tr class="detail-row" data-ws="WS7"><td colspan="10"><div class="detail-inner">
   <div class="detail-lab">What this activity consists in</div>
   <p>Ranks the automation use cases by value and feasibility and sequences them: deterministic rules first, because they are cheap, explainable and defensible before a court or an operator, then document extraction and predictive analytics where rules genuinely cannot do the job. Every use case touching a licence, an assessment or a sanction carries a defined human review. Each release is measured on time saved and errors caught, and one that cannot show its effect is retired.</p>
   <div class="detail-kv">
@@ -1030,7 +1161,7 @@
   </div>
   <div class="callout" style="margin-top:32px">
     <div class="callout-title">Critical path</div>
-    <p>A1.2, the demonstration platform, is the first link: it is what makes the December Board meeting a demonstration rather than a report, and it is what A1.4, A1.5 and A1.7 build on. In parallel A2.1 feeds A2.2, and A3.1 feeds A3.2, the other two December deliverables. From January, A1.4 to A1.6 and A2.3 to A2.5 carry the regulatory and licence work. Any slippage before 30 November 2026 (D+90) costs the Board meeting; slippage after it is largely contained inside its own workstream.</p>
+    <p>A1.2, the demonstration platform, is the first link: it is what makes the December Board meeting a demonstration rather than a report, and it is what A1.4, A1.5 and A1.7 build on. In parallel, three other chains feed the same meeting: A2.1 into A2.2 (the trading company mapping), A3.1 and A3.2 into A3.3 (the loss-quantification estimate), and A4.1 into A4.2 (the risk-pricing model). Any slippage before 15 November 2026 (D+75) threatens the loss-quantification deliverable specifically; any slippage before 30 November 2026 (D+90) costs the Board meeting more broadly. From January, A1.4 to A1.6 and A2.3 to A2.5 carry the regulatory and licence work, largely contained within their own workstreams if they slip.</p>
   </div>
 </div>
 

@@ -117,6 +117,20 @@ document and the condensed document together.
 
 ---
 
+## Version history
+
+**v4, 5 September 2026.** Added a sixth Board requirement, "Calculating more accurately the
+losses undergone by the Rwandan economy," in third priority position. This inserted a new
+workstream, WS3, and renumbered every workstream, activity and objective from the old WS3
+onward (old WS3→WS4, WS4→WS5, WS5→WS6, WS6→WS7). The detailed document grew from 21 to 24
+pages and the condensed document from 6 to 7. Total activities: 41 across 7 workstreams
+(was 36 across 6). The glossary gained two terms, TC and Payability.
+
+**v3, 5 September 2026.** Initial publication: five Board requirements, six workstreams,
+36 activities, first version of this site.
+
+---
+
 ## Demonstration tool links
 
 The reporting platform (due 31 October 2026) and the risk-pricing model (due 30 November 2026)
