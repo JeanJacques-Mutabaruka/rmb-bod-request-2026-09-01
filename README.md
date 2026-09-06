@@ -119,6 +119,17 @@ document and the condensed document together.
 
 ## Version history
 
+**v5, 6 September 2026.** Corrected the record for requirement 3: the Board had noted that the
+loss estimate already presented was understated (it covered prefinancing interest alone), not
+asked for a model to be built from scratch. WS3 now quantifies all four categories, ranked by
+size, and models the reverse question the Board raised: what the sector could gain from local
+control of its financing. Added an RMB-initiated addition, clearly flagged as not raised by the
+Board: an indicative estimate of how much sector profit is being reinvested locally against how
+much cannot be traced, alongside the data requirements to make that visible on an ongoing basis.
+Two new activities (A3.6, A3.7); WS3 now spans D+7 to D+90. Total activities 43 (was 41);
+December deliverables 7 (was 6). The detailed document grew from 24 to 26 pages; the condensed
+document stayed at 7.
+
 **v4, 5 September 2026.** Added a sixth Board requirement, "Calculating more accurately the
 losses undergone by the Rwandan economy," in third priority position. This inserted a new
 workstream, WS3, and renumbered every workstream, activity and objective from the old WS3
